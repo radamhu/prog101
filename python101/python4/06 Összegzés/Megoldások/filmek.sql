@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+CREATE TABLE top10 (cím TEXT,mufaj TEXT,nemzet TEXT,hossz INTEGER,kezdet TEXT,nezo INTEGER,bevetel INTEGER);
+INSERT INTO `top10` VALUES ('Káosz karácsonyra','vígjáték','amerikai',107,'2015-12-10',41562,55319590);
+INSERT INTO `top10` VALUES ('Krampusz','horror-vígjáték','amerikai',98,'2015-12-03',18063,53805445);
+INSERT INTO `top10` VALUES ('Kémek hídja','thriller','amerikai',135,'2015-11-26',16647,116585665);
+INSERT INTO `top10` VALUES ('Az éhezők viadala - A kiválasztott','sci-fi','amerikai',137,'2015-11-19',15514,332902339);
+INSERT INTO `top10` VALUES ('Dínó tesó','animációs','amerikai',100,'2015-12-03',15421,29112095);
+INSERT INTO `top10` VALUES ('Szemekbe zárt titkok','thriller','amerikai',111,'2015-12-03',12033,45020855);
+INSERT INTO `top10` VALUES ('A tenger szívében','kaland','amerikai',121,'2015-12-10',11578,16988425);
+INSERT INTO `top10` VALUES ('007 Spectre - A fantom visszatér','akció','amerikai-angol',150,'2015-11-05',6198,361001590);
+INSERT INTO `top10` VALUES ('A kis herceg','animációs','francia',108,'2015-11-05',4769,82807852);
+INSERT INTO `top10` VALUES ('Hotel Transylvania 2.','animációs','amerikai',90,'2015-10-08',3763,368634982);
+COMMIT;

@@ -1,0 +1,52 @@
+1. het
+   osszeg:   82
+  maximum:   68
+  minimum:  -27
+  negativ:    3
+2. het
+   osszeg:  109
+  maximum:   30
+  minimum:    0
+  negativ:    0
+3. het
+   osszeg:  207
+  maximum:   59
+  minimum:  -23
+  negativ:    1
+4. het
+   osszeg:  186
+  maximum:   67
+  minimum:  -24
+  negativ:    1
+5. het
+   osszeg:  144
+  maximum:   61
+  minimum:  -30
+  negativ:    2
+6. het
+   osszeg:  345
+  maximum:   67
+  minimum:   24
+  negativ:    0
+7. het
+   osszeg:   45
+  maximum:   49
+  minimum:  -30
+  negativ:    2
+8. het
+   osszeg:  203
+  maximum:   64
+  minimum:  -22
+  negativ:    2
+9. het
+   osszeg:   -7
+  maximum:   29
+  minimum:  -29
+  negativ:    4
+10. het
+   osszeg:  189
+  maximum:   54
+  minimum:   -3
+  negativ:    1
+ 1
+ 1

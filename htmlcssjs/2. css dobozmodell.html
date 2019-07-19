@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<title>Padding (belső kitöltés) megadása</title>
+<meta charset="utf-8">
+<style type="text/css">
+  div {
+     width:200px;              /*szélesség beállítása*/
+     background-color:#efefef; /*háttérszín*/
+     margin:10px;              /*margó beállítás*/
+     float:left;               /*balra lebegtetés*/
+     text-align:justify;       /*szöveg sorkizárt igazítása*/
+     }
+  div#pelda1 {padding:20px;}     /*20 képpontos szimmetrikus kitöltés */
+  div#pelda2 {
+              padding-top:5px; 
+              padding-right:10px; 
+              padding-bottom:15px; 
+              padding-left:20px; 
+             }
+  div#pelda3 {padding:5px 10px 15px 20px;  /*az előző példa leírása rövidebben */} 
+</style>
+</head>
+<body>
+  <div id="pelda1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam mauris nec lorem scelerisque consectetur. Sed quis libero suscipit, laoreet risus nec, dapibus lacus. Nunc rutrum viverra odio quis posuere. Ut ullamcorper libero est, sed ullamcorper turpis convallis quis.</div>
+  <div id="pelda2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam mauris nec lorem scelerisque consectetur. Sed quis libero suscipit, laoreet risus nec, dapibus lacus. Nunc rutrum viverra odio quis posuere. Ut ullamcorper libero est, sed ullamcorper turpis convallis quis.</div>
+  <div id="pelda3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam mauris nec lorem scelerisque consectetur. Sed quis libero suscipit, laoreet risus nec, dapibus lacus. Nunc rutrum viverra odio quis posuere. Ut ullamcorper libero est, sed ullamcorper turpis convallis quis.</div>
+</body>
+</html>

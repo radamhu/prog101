@@ -1,0 +1,51 @@
+<HTML>
+ <HEAD>
+  <TITLE>Ûrlapok</TITLE>
+ </HEAD>
+ <BODY>
+  <FORM method=GET name=urlap
+        action="http://www.szerver.hu/kezel.php"
+		onSubmit="alert('Ez csak teszt!'); return false">
+   <FIELDSET>
+    <LEGEND align=right>Ûrlap</LEGEND>
+    <INPUT type=image name=logo
+           src="http://szamszer.fw.hu/Regisztracio.jpg">
+    <BR>
+    <LABEL for=nev>Név:</LABEL>
+    <INPUT type=text name=nev size=50 readonly 
+           maxlength=25 value="Írd be a neved!">
+    <BR>
+    <LABEL for=jelszo>Jelszó:</LABEL>
+    <INPUT type=password name=jelszo>
+    <BR>
+    <LABEL for=nem>Neme:</LABEL>
+    <INPUT type=radio name=nem value=ferfi>Férfi
+    <INPUT type=radio name=nem value=no>Nõ
+    <BR>
+    <LABEL for=hobby>Hobby:</LABEL>
+    <INPUT type=checkbox name=hobby value=internet>Internet
+    <INPUT type=checkbox name=hobby value=sport>Sport
+    <INPUT type=checkbox name=hobby value=tv>TV
+    <BR>
+    <LABEL for=fajl>Tölts fel magadról egy képet:</LABEL>
+    <INPUT type=file name=fajl>
+    <BR>
+    <LABEL for=magamrol>Írj valamit magadról:</LABEL>
+    <TEXTAREA name=magamrol cols=60 rows=10>
+    </TEXTAREA>
+    <BR>
+    <LABEL for=iskola>Iskolai végzettséged:</LABEL>
+    <SELECT name=iskola size=1>
+     <OPTION>Általános iskola
+ 	 <OPTION>Középiskola
+	 <OPTION>Fõiskola
+    </SELECT>
+    <BR>
+    <INPUT type=button name=nyomogomb value="Nyomógomb"
+           onClick="alert('Rám kattintottál!')">
+    <INPUT type=reset name=torol value="Töröl">
+    <INPUT type=submit name=elkuld value="Elküld">
+   </FIELDSET>
+  </FORM>
+ </BODY>
+</HTML>

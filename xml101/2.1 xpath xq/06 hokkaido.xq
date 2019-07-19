@@ -1,0 +1,1 @@
+//province[@name='Hokkaido']/city/name/string()

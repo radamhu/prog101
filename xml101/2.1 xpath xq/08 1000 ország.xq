@@ -1,0 +1,1 @@
+//country[@population/number()>1500]/@name/string()

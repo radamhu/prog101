@@ -1,0 +1,12 @@
+        oTerem.setCellValueFactory(new PropertyValueFactory<>("terem"));
+        oFelhasznalas.setCellValueFactory(new PropertyValueFactory<>("felhasznalas"));
+
+        oNev.setCellValueFactory(new PropertyValueFactory<>("nev"));
+        oJellemzok.setCellValueFactory(new PropertyValueFactory<>("jellemzok"));
+        
+        oID.setCellValueFactory(new PropertyValueFactory<>("ID"));
+        oTerem2.setCellValueFactory(new PropertyValueFactory<>("terem"));
+        oEszkoz2.setCellValueFactory(new PropertyValueFactory<>("eszkoz"));
+        oAr.setCellValueFactory(new PropertyValueFactory<>("ar"));
+        oEv.setCellValueFactory(new PropertyValueFactory<>("ev"));
+        oMegjegyzes.setCellValueFactory(new PropertyValueFactory<>("megjegyzes"));

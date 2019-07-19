@@ -1,0 +1,2 @@
+9. aonosítókijelölő: selector ami #-el kezdődik
+13. #bokor helyett #termes

@@ -1,0 +1,84 @@
+body{
+    color: #375E97; 
+    background-image: url('szoftverleltar-hatter.jpg');
+}
+
+.tarolo{
+    width: 800px;
+    background-color: #fdb5a5;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    margin: 5px 0;
+}
+fieldset{
+    border: 1px solid #375E97;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #375E97;
+    background-color: #ffc933;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+legend{
+    color: white;
+    border-radius: 4px 6px 8px 10px;
+    background-color: #3F861C;
+    letter-spacing: 3px;
+    padding: 3px;
+}
+#cim{text-align: right;}
+label{
+    font-weight: bold;
+}
+input{
+    padding-left: 5px;
+}
+form fieldset input{
+    border-radius: 4px;
+    border: 1px solid #0066ff;
+    box-shadow: -1px -1px 5px #dadada inset;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+input[type="submit"]{
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #375E97;
+    background: linear-gradient(to bottom, #3F861C, #375E97);
+    cursor: pointer;
+    padding: 7px;
+    margin-right: 10px;
+    text-shadow: 4px 4px 7px #3b3b3b
+}
+input[type="submit"]:hover{
+    background: linear-gradient(to bottom, #375E97, #3F861C);
+}
+details, table{width: 420px;}
+summary{
+    background-color: #ffc933;
+    font-size: 20px;
+    padding: 5px;
+}
+table, tr, td, th{
+    border: 1px solid #3F861C;
+}
+td, th{
+    padding: 5px;
+}
+p{
+    background-color: #ffc933;
+    margin: 0;
+    width: 420px;
+    padding: 5px;
+}
+#gep_id, #hely, #id{width: 40px;}
+#tipus, #ipcim{width: 100px;}

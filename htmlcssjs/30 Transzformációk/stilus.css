@@ -1,0 +1,54 @@
+body {
+	background: linear-gradient(150deg, #ddd 50%, green, black);
+}
+h1, h2 {
+	color: #0081C4;
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+}
+h1 {
+	background-color: rgb(255, 128, 0);
+	opacity: 0.5;
+	box-shadow: 5px 5px 10px gray;
+	text-shadow: black 2px 2px 5px;
+}
+h1:hover {
+	transform: skew(-5deg,5deg);
+}
+h2 {
+    font-size: 1em;
+	border-style: dotted;
+	border-color: #FF5050;
+	border-width: 1px;
+	margin: 20px;
+	width: 250px;
+	height: 50px;
+	background: linear-gradient(#72c41f,#5c9e19);
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px gray;
+	transform-origin: left top;
+	transform: rotate(-5deg);
+}
+h2:hover {
+	transform: translate(50px,0) rotate(-5deg);
+}
+p {
+	width: 500px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 291px;
+	background-color: #D9F2FA;
+	border-radius: 0 15px;
+	box-shadow: 5px 5px 10px gray;
+}
+p:hover {
+	transform-origin: left top;
+	transform: scale(1.2);
+}
+#tartalom {
+	width: 831px;
+	margin: 0 auto;
+}

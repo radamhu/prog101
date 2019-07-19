@@ -1,0 +1,12 @@
+Kala Pál,Munkaügy,200000,30000,5
+Karam Ella,Pénzügy,150000,50000,12
+Para Zita,Pénzügy,220000,55000,22
+Seft Elek,Munkaügy,130000,60000,11
+Bármi Áron,Pénzügy,145000,105000,2
+Fejed Benõ,Munkaügy,140000,115000,6
+De Bella,Munkaügy,160000,130000,2
+Vaj Ákos,Munkaügy,190000,120000,2
+Buk Simon,Munkaügy,180000,135000,2
+Csin Csilla,Pénzügy,230000,172500,4
+Pum Pál,Munkaügy,170000,185000,1
+Szemte Lenke,Munkaügy,285000,200000,17

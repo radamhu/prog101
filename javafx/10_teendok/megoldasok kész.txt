@@ -1,0 +1,61 @@
+﻿A feladatok megoldására elkészített SQL parancsokat illessze be a feladat sorszáma után!
+
+1. feladat:
+CREATE DATABASE fogado 
+DEFAULT CHARSET=utf8 
+COLLATE utf8_hungarian_ci;
+
+2. feladat
+importálás
+utána megnézni az adatbázismotort (innoDB kell!)
+(ALTER TABLE szobak ENGINE = InnoDB;)
+
+3. feladat:
+ALTER TABLE vendegek 
+ADD INDEX(vnev);
+vagy:
+CREATE INDEX vnev ON vendegek(vnev);
+(indexeket megnézni!)
+
+4. feladat:
+ALTER TABLE foglalasok 
+ADD FOREIGN KEY (vendeg) 
+REFERENCES vendegek(vsorsz);
+
+ALTER TABLE foglalasok 
+ADD FOREIGN KEY (szoba) 
+REFERENCES szobak(szazon);
+
+Vagy a szerkezet/kapcsolati nézetben is meg lehet adni.
+(kapcsolati nézetet + tervezőt megnézni!)
+
+5. feladat:
+INSERT INTO foglalasok 
+VALUES (281, 100, 2, '2016-06-28', '2016-06-30', 5);
+(megnézni!)
+
+6. feladat:
+UPDATE szobak 
+SET agy = 3 
+WHERE sznev = 'Vidor';
+(ellenőrzés!)
+
+7. feladat:
+SELECT count(*) AS vendegszam 
+FROM vendegek 
+WHERE irsz BETWEEN 3400 AND 3999;
+
+8. feladat:
+SELECT sznev, sum(fo) AS vendegek, sum((tav-erk)*fo) AS vendegejszakak 
+FROM foglalasok 
+JOIN szobak ON foglalasok.szoba=szobak.szazon 
+GROUP BY sznev 
+ORDER BY vendegejszakak, vendegek;
+(második rendezési szempont?)
+
+9. feladat:
+SELECT vnev, count(*) AS alkalmak 
+FROM vendegek 
+JOIN foglalasok ON vendegek.vsorsz=foglalasok.vendeg
+GROUP BY vnev 
+HAVING alkalmak > 1;

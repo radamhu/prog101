@@ -1,0 +1,19 @@
+ul {
+    list-style-image: url("nap.gif");
+}
+
+li {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: blue;
+}
+
+.bevezetes {
+    background-color: grey;
+    font-weight: bold;
+    padding: 10px;
+    border-left: solid 5px yellowgreen;
+}

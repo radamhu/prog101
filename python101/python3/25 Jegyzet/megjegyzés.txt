@@ -1,0 +1,2 @@
+mentésnél hozzátesz egy sorvége jelet
+megoldás: 'end-1c'

@@ -1,0 +1,17 @@
+1. Kezdj új adatbázist repterek néven! Az adatbázis alapértelmezett rendezési sorrendje a magyar szabályok szerinti legyen! 
+
+2. Importáld a kapott palyak.sql parancsfájlt! Nézd meg a kapott tábla szerkezetét és tartalmát!
+
+3. Add hozzá a palyak táblához a tököli reptér második pályájának adatait:
+Tököl, 1100, 50, 'fû'
+
+4. Listázd a betonozott kifutópályák minden adatát!
+
+5. Készíts lekérdezést, amellyel felsorolod az 1500 méteres és ennél hosszabb kifutópályákat! Csak a repülõtér neve és a pálya hossza jelenjen meg, más adat ne! A sorok a hossz szerint csökkenõ sorrendben legyenek!
+
+6. Add meg azoknak a repülõtereknek a nevét, ahol egynél több beton kifutópálya van! 
+
+7. Határozd meg, hogy melyik repülõtéren található és milyen nagyságú a legnagyobb területû füves kifutópálya!
+
+8. Add meg azoknak a repülõtereknek a nevét, ahol csak füves kifutópálya van, nincs betonborítású! Minden repülõtér neve csak egyszer jelenjen meg a listában! 
+ select distinct nev from palyak where anyag= 'fû' and nev not in (select distinct nev from palyak where anyag='beton';

@@ -1,0 +1,12 @@
+/* 
+    Created on : 2019.01.05., 11:48:26
+    Author     : Joe
+*/
+GridPane {
+    -fx-background-color: lightcoral;
+}
+TextField {
+    -fx-font-size: 72px;
+    -fx-pref-width: 200px;
+    -fx-text-alignment: center;
+}

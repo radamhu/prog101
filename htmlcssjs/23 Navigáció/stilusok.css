@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-image: url("hatter.png");
+
+}
+#tarolo {
+    width: 800px;
+    margin: 15px auto;
+    background-color: #FFDE81;
+}
+
+#fejlec {
+    height: 150px;
+    padding: 10px;
+    background-color: #113382;
+    background-image: url("nevetes.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#lablec {
+    padding: 10px;
+    background-color: #113382;
+    color: white;
+}
+
+#navigacio {
+    /*float: left;
+    width: 200px;*/
+    height: 40px;
+    padding: 10px;
+    background-color: #FFDE81;
+}
+
+#tartalom {
+    /* margin-left: 220px;*/
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    background-color: #B28810;
+    color: white;
+}
+
+/* navigacio szakaszban az ul elemekre */
+#navigacio ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;   
+}
+
+#navigacio li {
+    float: left;
+    padding: 0;
+    margin: 0 5px 0 0;
+}
+
+#navigacio a {
+    display: block;
+    /*width: 180px;*/
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color: #4c71ff;
+    text-decoration: none;
+}
+
+#navigacio a:hover {
+    background-color: #113382;
+}
+
+/* új osztály létrehozása: a.valasztott*/
+#navigacio a.valasztott {
+    background-color: #B28810;
+}

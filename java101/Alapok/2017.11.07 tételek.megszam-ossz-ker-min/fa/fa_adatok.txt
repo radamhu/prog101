@@ -1,0 +1,71 @@
+"Zár-hegy", "Sváb-hegy", "Lótusz-hegy", "Gumi-hegy", "Kár-hegy", "Lágy-hegy", "Fekete-hegy", "Erõ-hegy", "Dandár-hegy", "Golgota-hegy", "Rétes-hegy"
+500, 862, 701, 652,	703, 600, 700, 1500, 850, 860, 970	
+
+    // blokkok; ezen belüli x-et nem látja senki
+    // megszámlálás tétele, elõször kiszámoljuk az összegét, majd átlagát
+    static void f1(){
+        int s=0; 
+        int N = hegyek.length;
+        for (int i = 0; i < N; i++) {
+            s= s + hegyek[i];
+        
+        System.out.println(
+                // macskaköröm, 15 karakter, decimális 3 helyre
+                String.format("%15s %3d","összeg:",s)
+        );
+        System.out.println(
+                // macskaköröm, 15 karakter, decimális 3 helyre
+                // "/" egész rész osztás, egész szám az eredmény
+                // kényszerítve (double) és így lesz 2.5
+                String.format("%15s %3.2f","átlag:", (double)s/N)
+        );
+		};
+    }
+    
+    // líneáris keresés tétele
+    // hányadik elem éri el elõször a 45-öt
+    // elöltesztelõs ciklus
+    static void f2(){
+        int i=0, N=t.length;
+        while (i<N && t[i]<45) {
+            i++;
+        } 
+        if (i<N) {System.out.println(
+                String.format("%9s %3d%5s","a",(i+1),".szám"));
+        } else { System.out.println(
+                String.format("%24s","nincs ilyen szám"));
+        }
+    }
+    
+    // megszámlálás tétele
+    // hányszor fordul elõ, h a tömbben egy negatív szám elõtt pozitív szám áll?
+    static void f3(){
+        int db=0, N=t.length;
+        // azért N-1 vagyis az utolsó elõtt állók le a tömmbbel
+        // mert párossával megyek a tömbben, látszik az if-ben
+        // de ha az utolsó elemig elsétálnék akkor 
+        for (int i = 0; i < (N-1); i++) {
+            if (t[i]<0 && t[i+1]>0) {
+                db++;
+            }
+        }
+        System.out.println(
+            //String.format("", os)
+        );
+    }
+    
+    // minimum kiválasztás tétele
+    // melyik a legkisebb szám és hányadik
+    static void f4(){
+        int mint=t[0], j=0, N=t.length;
+        for (int i = 1; i < N; i++) {
+            if (t[i]<min) {
+                mint=t[i];
+                j=i;
+            }
+        }
+        System.out.println(
+            String.format("%40s %3d %3d"," valami szöveg",min,(j+1));
+        );
+    }
+    

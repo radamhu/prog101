@@ -1,0 +1,26 @@
+body {
+    background-color: #52AE31;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    display: flex;
+}
+main {
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+main h1 {
+    color: white;
+    background: #FF6600;
+    padding: 10px;
+    text-align: center;
+}
+#kalkulator {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+input {
+    width: 200px;
+}

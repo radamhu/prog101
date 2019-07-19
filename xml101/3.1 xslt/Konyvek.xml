@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="konyvek.xsl"?>
+<könyvesbolt>
+  <könyv katergória="FŐZÉS">
+    <cím lang="hu">Olasz pizzák</cím>
+    <szerző>Kukta de Luiyi</szerző>
+    <év>2013</év>
+    <ár>3000</ár>
+  </könyv>
+  <könyv katergória="GYERMEK">
+    <cím lang="hu">Jani a Potter</cím>
+    <szerző>K. K. Rowling</szerző>
+    <év>2013</év>
+    <ár>2999</ár>
+  </könyv>
+  <könyv katergória="WEB">
+    <cím lang="hu">XQuery kezdőknek</cím>
+    <szerző>Gipsz Aranka</szerző>
+    <szerző>Gipsz Mari</szerző>
+    <szerző>Gipsz Juli</szerző>
+    <év>2013</év>
+    <ár>4999</ár>
+  </könyv>
+  <könyv katergória="WEB">
+    <cím lang="hu">Az XML királya</cím>
+    <szerző>Ikz Emel</szerző>
+    <év>2014</év>
+    <ár>3995</ár>
+  </könyv>
+</könyvesbolt>

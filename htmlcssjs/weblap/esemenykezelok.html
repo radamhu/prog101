@@ -1,0 +1,313 @@
+<HTML>
+ <HEAD>
+  <TITLE>Eseménykezelõk</TITLE>
+  <STYLE type="text/css">
+   BODY {
+         background-image: url(hatter.gif);
+         margin: 0;
+		}
+   H1 {
+	   font: 70pt bold;
+	  }
+   .esemeny {
+             color: teal;
+             font: xx-large bold;
+             cursor: help;
+             margin-left: 30;
+             
+			}
+   .kivaltas {
+              color: royalblue;
+              font: x-large bold;
+              margin-left: 65
+			 }
+   .tanulsagos {
+                background-color: salmon;
+				text-align: justify;
+			   }
+   TABLE { margin-bottom: 50 }
+  </STYLE>
+  <SCRIPT type="text/javascript" language="JavaScript">
+   defaultStatus='Formai megadás: eseménykezelõ_név=javascript_parancssor';
+
+   function uzen()
+    {
+     alert('onMove esemény');
+    }
+   top.document.onmove=uzen;
+  </SCRIPT>
+ </HEAD>
+ <BODY onLoad="alert('onLoad esemény')" onUnload="alert('onUnload esemény')" onResize="alert('onResize esemény')">
+  <H1 onDrag="alert('onDrag esemény')">
+   <CENTER>
+    Eseménykezelõk
+   </CENTER>
+  </H1><BR>
+
+  <DIV><P class=esemeny title="APPLET, BODY, EMBED, FRAMESET, IMG, LINK, SCRIPT, window">
+   1. onLoad
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Töltsd be a dokumentumot!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="BODY, FRAMESET, window">
+   2. onUnload
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Távolítsd el a dokumentumot!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OBJECT, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   3. onClick
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Klikkelj a fehérrózsára!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OBJECT, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   4. onDblClick
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Klikkelj duplán a sárgarózsára!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   5. onMouseDown
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Nyomd le az egérgombot a rózsaszínrózsa fölött!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   6. onMouseUp
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Enged fel az egérgombot a vörösrózsa fölött!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   7. onMouseOver
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Vidd az egérmutató a történet bal részlete fölé!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   8. onMouseOut
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Vidd el az egérmutatót a történet fölül!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   9. onMouseMove
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Mozgasd az egérmutatót a történet jobb részlete fölött!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ACRONYM, ADDRESS, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, CAPTION, CENTER, CITE, CODE, DD, DEL, DFN, DIR, DIV, DL, document, DT, EM, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LI, MAP, MARQUEE, MENU, NOBR, OBJECT, OL, P, PRE, Q, S, SAMP, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TR, TT, U, UL, VAR">
+   10. onDrag
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Vonszold a címet!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ACRONYM, ADDRESS, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DEL, DFN, DIR, DIV, DL, document, DT, EM, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LI, MAP, MARQUEE, MENU, NOBR, OBJECT, OL, P, PRE, Q, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TR, TT, U, UL, VAR">
+   11. onDrop
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Ejtsd a kijelölt idézetet a többsoros szövegbeviteli mezõben!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ACRONYM, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DEL, DFN, DIR, DIV, document, DT, EM, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OBJECT, OL, P, PRE, Q, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   12. onKeyPress
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Nyomj le egy billentyût, majd engedd fel az egysoros szövegbeviteli mezõben!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ACRONYM, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DEL, DFN, DIR, DIV, document, DT, EM, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OBJECT, OL, P, PRE, Q, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   13. onKeyDown
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Nyomj le egy billentyût a jelszóbeviteli mezõben!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ACRONYM, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DEL, DFN, DIR, DIV, document, DT, EM, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OBJECT, OL, P, PRE, Q, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   14. onKeyUp
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Engedj fel egy billentyût a többsoros szövegbeviteli mezõben!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, AREA, B, BDO, BIG, BLOCKQUOTE, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, DT, EM, FIELDSET, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, LEGEND, LI, MENU, NOBR, OL, P, PRE, S, SAMP, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TD, TH, TR, TT, U, UL">
+   15. onCopy
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Másold a kijelölt idézetet!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title=" A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   16. onCut
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Vágd ki az egysoros szövegbeviteli mezõ szövegét!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title=" A, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BODY, BUTTON, CAPTION, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, document, DT, EM, EMBED, FIELDSET, FONT, FORM, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, KBD, LABEL, LEGEND, LI, MAP, MARQUEE, MENU, NOBR, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR">
+   17. onPaste
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Illeszd be a címet a többsoros szövegbeviteli mezõbe!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ADDRESS, APPLET, B, BIG, BLOCKQUOTE, BUTTON, CENTER, CITE, CODE, DD, DFN, DIR, DIV, DL, DT, EM, EMBED, FIELDSET, FORM, FRAME, H1, H2, H3, H4, H5, H6, HR, I, IMG, INPUT, ISINDEX, KBD, LABEL, LEGEND, LI, MARQUEE, MENU, OBJECT, OL, P, PRE, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TEXTAREA, TT, U, UL, VAR, window">
+   18. onResize
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Méretezd át az ablakot!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="APPLET, BDO, BODY, DIV, EMBED, MAP, MARQUEE, OBJECT, TABLE, TEXTAREA, window">
+   19. onScroll
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Gördítsd a többsoros szövegbeviteli mezõ csuszkáját!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ACRONYM, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BUTTON, CAPTION, CENTER, CITE, DD, DEL, DFN, DIR, DIV, DL, DT, EM, EMBED, FIELDSET, FONT, FORM, FRAME, FRAMESET, H1, H2, H3, H4, H5, H6, HR, I, IFRAME, IMG, INPUT, INS, ISINDEX, KBD, LABEL, LEGEND, LI, MARQUEE, MENU, OBJECT, OL, P, PRE, Q, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR, window">
+   20. onFocus
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Fókuszálj a választógombokra!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="A, ACRONYM, ADDRESS, APPLET, AREA, B, BDO, BIG, BLOCKQUOTE, BUTTON, CAPTION, CENTER, CITE, DD, DEL, DFN, DIR, DIV, DL, DT, EM, EMBED, FIELDSET, FONT, FORM, FRAME, FRAMESET, H1, H2, H3, H4, H5, H6, HR, I, IFRAME, IMG, INPUT, INS, ISINDEX, KBD, LABEL, LEGEND, LI, MARQUEE, MENU, OBJECT, OL, P, PRE, Q, S, SAMP, SELECT, SMALL, SPAN, STRIKE, STRONG, SUB, SUP, TABLE, TBODY, TD, TEXTAREA, TFOOT, TH, THEAD, TR, TT, U, UL, VAR, window">
+   21. onBlur
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Kerülj ki a választónégyzetekbõl!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="INPUT, SELECT, TEXTAREA">
+   22. onChange
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Változtass a választólistában!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="BODY, INPUT, TEXTAREA">
+   23. onSelect
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Válassz ki egy fájlt, majd jelöld ki!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="FORM">
+   24. onReset
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Állítsd vissza az eredeti állapotba az ûrlap elemeinek az értékét!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="FORM">
+   25. onSubmit
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Küld el az ûrlap elemeinek az értékét!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="IMG">
+   26. onAbort
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Szakítsd meg a nagyméretû madár bitmap kép letöltését!</SPAN></DIV>
+  <BR><HR>
+
+  <DIV><P class=esemeny title="IMG, OBJECT, STYLE, window">
+   27. onError
+  </P>
+  <SPAN class=kivaltas>Kiváltás: Helytelen hivatkozás egy képfájlra!</SPAN></DIV>
+  <BR><HR>
+
+  <TABLE width=100%>
+   <TR>
+    <TD align=center><IMG src="Rozsa_feher.gif" onClick="alert('onClick esemény')"></TD>
+    <TD align=center><IMG src="Rozsa_sarga.gif" onDblClick="alert('onDblClick esemény')"></TD>
+    <TD align=center><IMG src="Rozsa_rozsaszin.gif" onMouseDown="alert('onMouseDown esemény')"></TD>
+    <TD align=center><IMG src="Rozsa_voros.gif" onMouseUp="alert('onMouseUp esemény')"></TD>
+   </TR>
+  </TABLE>
+  <FORM name=formPage action="http://www.server.hu/cgi/handle" onReset="alert('onReset esemény')" onSubmit="alert('onSubmit esemény'); return false" style="margin-left:30">
+   <FIELDSET style="width:400">
+    <LEGEND>Ûrlap</LEGEND>
+    <P>Felhasznaló név: <INPUT type=text size=10 onKeyPress="alert('onKeyPress esemény')" onCut="alert('onCut esemény')"></P>
+    <P>Jelszó: <INPUT type=password size=10 onKeyDown="alert('onKeyDown esemény')"></P>
+    <P>Nem:<BR>
+     <INPUT type=radio name=nem value=ferfi onFocus="alert('onFocus esemény')" checked>Férfi<BR>
+     <INPUT type=radio name=nem value=no>Nõ
+    </P>
+    <P>Foglalkozás: <BR>
+     <SELECT onChange="alert('onChange esemény')">
+      <OPTION>Tanuló
+      <OPTION>Munkavállaló
+      <OPTION>Vezetõ
+      <OPTION>Vállalkozó
+      <OPTION>Nyugdíjas
+      <OPTION>Munkanélküli
+     </SELECT>
+    </P>
+    <P>Hobbi: <BR>
+     <INPUT type=checkbox name=hobby value=szamitogepezes onBlur="alert('onBlur esemény')" checked>Számítógépezés<BR>
+     <INPUT type=checkbox name=hobby value=sport>Sport<BR>
+     <INPUT type=checkbox name=hobby value=olvasás>Olvasás<BR>
+     <INPUT type=checkbox name=hobby value=tv>TV
+    </P>
+    <P>Kép: 
+    <INPUT type=file size=30 onSelect="alert('onSelect esemény')"></P>
+    <P>Magadról: <BR>
+     <TEXTAREA cols=30 rows=5 style="overflow:auto" onKeyUp="alert('onKeyUp esemény')" onDrop="alert('onDrop esemény')" onPaste="alert('onPaste esemény')" onScroll="alert('onScroll esemény')">
+	  a
+	  b
+	  c
+	  d
+	  e
+	  f
+	  g
+	  h
+	  i
+	  j
+	  k
+	  l
+	  m
+	  n
+	  o
+	  p
+	  q
+	  r
+	  s
+	  t
+	  v
+	  w
+	  x
+	  y
+	  z
+	 </TEXTAREA>
+    </P>
+    <P>
+     <INPUT type=reset value=Visszaállít>
+     <INPUT type=submit value=Elküld>
+    <P>
+   </FIELDSET>
+  </FORM>
+  <P align=center onCopy="alert('onCopy esemény')"><I>Most azért megmarad a hit, remény, szeretet, e három; ezek között pedig legnagyobb a szeretet.</I></P>
+  <CENTER>
+   <IMG src="madar.bmp" width=800 onAbort="alert('onAbort esemény')">
+   <IMG src="nem_letezo_kep.jpg" onError="alert('onError esemény')" alt="Egy direkt helytelen képfájl hivatkozás.">
+  </CENTER>
+  <TABLE align=center width=100%>
+   <TR>
+    <TD width=50%>
+     <DIV class=tanulsagos onMouseOver="alert('onMouseOver esemény')" onMouseOut="alert('onMouseOut esemény')">
+      <H3>Élet a születés után</H3><BR>
+      Egy várandós anya két gyermeket hord a méhében. Az egyik egy "kis hívõ", a másik egy "kis szkeptikus". A szkeptikus azt kérdezi:<BR>
+      - Te hiszel a születés utáni életben?<BR>
+      - Hát persze - mondja a kis hívõ. Az itteni életünk arra való, hogy felkészüljünk a születés utáni életre, hogy elég erõsekké váljunk arra, ami ott kint vár bennünket!<BR>
+      - Hülyeség! - mondja a szkeptikus. - Ez nem igaz! Hogyan nézhet ki a kinti, külsõ élet?<BR>
+      - Pillanatnyilag még nem tudom,- mondja a kis hívõ - de biztos sokkal világosabb, mint itt bent! Talán, lehet, hogy a szánkkal fogunk enni és a lábunkkal fogunk menni!<BR>
+      - Nonszensz, lehetetlen! - mondja a szkeptikus. - Megyünk a lábunkkal és eszünk a szánkkal!? Micsoda hülyeség! Ez egy fura ötlet, hogyan is mûködhetne! Itt van a köldökzsinór, ami biztosítja a táplálékot. Nem lehetséges élet a születés után, hiszen ez a zsinór már így is túl rövid!
+     </DIV>
+    </TD>
+    <TD width=50%>
+     <DIV class=tanulsagos onMouseMove="alert('onMouseMove esemény')" onMouseOut="alert('onMouseOut esemény')">
+      - Hát persze, hogy mûködni fog, csak minden egy kicsit másként fog kinézni. - mondja a kis hívõ.<BR>
+      - Soha sem fog mûködni! - véli a kis szkeptikus. - Még soha senki nem tért vissza a születés után! Születés után vége az egésznek! Az élet nem más, mint egy nagy sötét tortúra!<BR>
+      - Még ha nem is tudom pontosan, milyen lesz a születés utáni élet, - mondja a kis hívõ - de azt tudom, hogy találkozni fogunk az édesanyánkkal, és Õ nagyon vigyáz majd ránk!<BR>
+      - Anya?! Te hiszel egy anyában? Hol van? - kérdezi a kis szkeptikus.<BR>
+      - Itt van körülöttünk, mi benne vagyunk és általa létezünk, nélküle nem létezhetnénk! - válaszolja a kis hívõ.<BR>
+      Mire a kis szkeptikus:<BR>
+      - Soha nem láttam még semmilyen anyát! Nincs is ilyen!<BR>
+      A kis hívõ elgondolkozik egy pillanatra.<BR>
+      - Néha, amikor nagyon csendben vagyunk, hallhatod, ahogy énekel, vagy érezheted, amikor megsimogatja világunkat! - mondja aztán halkan - Mindenesetre én hiszem, hogy az igazi életünk a születés után kezdõdik!
+     </DIV>
+    </TD>
+   </TR>
+  </TABLE>
+ </BODY>
+</HTML>

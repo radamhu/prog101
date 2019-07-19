@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>színkeverő</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="szinek.css">
+</head>
+
+<body id="oldal">
+    <form>
+        <p>Színkeverő</p>
+        <label for="red" id="rlabel">0</label>
+        <input type="range" id="red" value="0" min="0" max="255">
+        <label for="green" id="glabel">0</label>
+        <input type="range" id="green" value="0" min="0" max="255">
+        <label for="blue" id="blabel">0</label>
+        <input type="range" id="blue" value="0" min="0" max="255">
+        <button type="button" id="gomb">Véletlen</button>
+    </form>
+
+    <script src="szinek.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+60 pont / 51 :  
+40 pont : sql
+
+3 osztály + Arraylist
+Név
+- nev
+- db (minden darabot 0-ra állítottam)
+
+Fajta (megnézed hogy van e kihagyás, itt nem volt, ezért elég a sorszam)
+sorszam (ezért nem kell ID)
+- fajta
+- eredeti
+
+Kutya (nevid alapján a magfelelo darabszámot növelem)
+- nevid
+- fajtaid
+- eletkor
+- datum
+
+3 beolvasás
+scanner szöveges, 
+split szétvágjuk, elágazás belerakunk mint a Nobel dijas alapján
+UTF8
+mindig olvasd el elõször a feladatot 
+utolsó sor után ENTER
+van olyan sor ahol kevesebb adat van (xls-ben mindig rá lehet ellenõrizni, )
+
+átlag életkor (végigmegyünk a kutyák listán)
+kerekítés - printf vagy string %2f ..  ne a MathRoundal szenvedj
+
+7.
+kutyák listán maximum keresés fajtaid, nevid alapján nevét fajtáját kiiírni fajtaid, nevid-1
+
+8. végigmegyünk a kuytákuon, ahol jan 10, hask táblában lptetünk 1-et
+Nobelban volt pl : elsõ elõrforudlásnál 1-re állítjuk
+hasmap , most a kulcs a fajta, azt meg hogy hányszo volt az értk
+
+9. hashmap, most a kulcs a dátum, az érték a kuyta
+most maximumot kell keresni
+megadunk egy olyan értéket aminél van nagyobb, pl 0, for each ciklus a hashmap-ben 
+(nincs sorrend a hashmap-ben, ezért csak )
+
+10.
+elején 0
+olvassuk be a kuytákat, megnöveljük 1-el
+nem akarjuk elrontani az id-táblában
+csökkenõ sorrneben darab szerint
+integer comparrel az összehasonlítás
+nem a képernyõre hanem a fájlba
+ahol volt kutya

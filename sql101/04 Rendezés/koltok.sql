@@ -1,0 +1,11 @@
+CREATE INDEX idx_szul ON evek(szuletett);
+SELECT * FROM evek WHERE meghalt BETWEEN 1919 AND 1944 ORDER BY meghalt;
+SELECT * FROM evek WHERE meghalt>=1919 AND meghalt<=1944 ORDER BY meghalt;
+SELECT * FROM masolat WHERE hely IS NULL;
+SELECT * FROM masolat WHERE hely IS NOT NULL;
+UPDATE masolat SET hely='nincs adat' WHERE hely IS NULL;
+SELECT nev,meghalt-szuletett FROM evek;
+SELECT * FROM masolat WHERE hely IS NOT NULL;
+SELECT nev,meghalt-szuletett FROM evek ;
+SELECT nev,meghalt-szuletett AS ELT FROM evek ORDER BY ELT DESC LIMIT 1;
+UPDATE masolat SET hely = "Kiskőrös" WHERE nev = "Petőfi Sándor";

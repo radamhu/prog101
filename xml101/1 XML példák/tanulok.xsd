@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- elemek -->
+<xs:element name="név" type="xs:string"/>
+<xs:element name="anyjaNeve" type="xs:string"/>
+<xs:element name="irsz" type="xs:string"/>
+<xs:element name="város" type="xs:string"/>
+<xs:element name="utca" type="xs:string"/>
+<xs:element name="házSzám" type="xs:string"/>
+<xs:element name="otthoni" type="xs:string"/>
+<xs:element name="mobil" type="xs:string"/>
+<xs:element name="email" type="xs:string"/>
+
+<!-- attribútumok -->
+
+<!-- tartalom -->
+<xs:element name="lakcím">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="irsz"/>
+      <xs:element ref="város"/>
+      <xs:element ref="utca"/>
+      <xs:element ref="házSzám"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="telefon">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="otthoni"/>
+      <xs:element ref="mobil"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="tanuló">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="név"/>
+      <xs:element ref="anyjaNeve"/>
+      <xs:element ref="lakcím" />
+      <xs:element ref="telefon"/>
+      <xs:element ref="email" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="tanulók">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="tanuló" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema> 

@@ -1,0 +1,1 @@
+//organization[@name='European Space Agency']/@headq/string()

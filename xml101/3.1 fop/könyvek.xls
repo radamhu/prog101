@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <xsl:output method="xml"/>
+  <xsl:template match="/">
+    <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+      <fo:layout-master-set>
+        <fo:simple-page-master master-name="A4" page-height="29.7cm" page-width="21cm" margin-right="72pt" margin-left="72pt" margin-bottom="36pt" margin-top="72pt">
+          <fo:region-body margin-top="2.5cm" margin-bottom="2.5cm"/>
+        </fo:simple-page-master>
+      </fo:layout-master-set>
+      <fo:page-sequence master-reference="A4">
+        <fo:flow flow-name="xsl-region-body">
+          <xsl:apply-templates select="könyvek"/>
+        </fo:flow>
+      </fo:page-sequence>
+    </fo:root>
+  </xsl:template>
+
+  <xsl:template match="könyvek">
+    <xsl:apply-templates select="könyv"/>
+  </xsl:template>
+
+  <xsl:template match="könyv">
+    <fo:block font-style="italic" space-after="12pt">
+      <xsl:apply-templates select="*|text()"/>
+    </fo:block>
+  </xsl:template>
+
+</xsl:stylesheet>

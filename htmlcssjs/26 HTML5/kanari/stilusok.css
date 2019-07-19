@@ -1,0 +1,57 @@
+body {
+    background-image: url('kepek/hatter.jpg');
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#tarolo {
+    width: 960px;
+    background-color: #E5BA8D;
+    margin: 0 auto;
+    padding: 10px;
+}
+nav {
+    background-color: #824620;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    padding: 0 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+header, footer {
+    background-image: #19518E;
+    color: white;
+    padding: 5px;
+    margin-top: 29px;
+}
+main {
+    float: left;
+    width: 580px;
+    padding: 5px;
+    margin: 0;
+}
+aside {
+    float: right;
+}
+figure {
+    margin: 10px 0;
+}
+footer {
+    clear: both;
+}

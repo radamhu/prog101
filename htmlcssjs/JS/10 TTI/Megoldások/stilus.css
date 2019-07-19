@@ -1,0 +1,43 @@
+body {
+    margin: 3vh 3vw;
+    height: 94vh;
+    background: #E6E0D4;
+    color: #532827;
+    font-size: 100%;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    display: flex;
+}
+form {
+    width: 400px;
+    height: 430px;
+    margin: 0 auto;
+    background: url('papir.jpg');
+    text-align: center;
+}
+input, button {
+    font-size: 1.1em;
+    width: 150px;
+}
+button {
+    padding: 10px 0;
+    background-color: #6c2726;
+    color: white;
+}
+button:hover {
+    background-color: #532827;
+}
+#kiiras {
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        background: #E6E0D4 url('hatter.jpg') right top no-repeat;
+        background-size: cover;
+    }
+    form {
+		margin: 0;
+        box-shadow: 10px 10px 15px #333;    
+    }
+}

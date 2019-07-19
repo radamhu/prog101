@@ -1,0 +1,7 @@
+1. nap: 65 km
+2. nap: 0 km
+3. nap: 69 km
+4. nap: 62 km
+5. nap: 74 km
+6. nap: 0 km
+7. nap: 75 km

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- elemek -->
+<xs:element name="cim" type="xs:string"/>
+<xs:element name="lepes" type="xs:string"/>
+
+<!-- attribútumok -->
+<xs:attribute name="nev" type="xs:string"/>
+<xs:attribute name="elk_ido" type="xs:string"/>
+<xs:attribute name="sutes_ido" type="xs:string"/>
+<xs:attribute name="mennyiseg" type="xs:decimal"/>
+<xs:attribute name="egyseg" type="xs:string"/>
+
+<!-- tartalom -->
+<xs:element name="osszetevo">
+<xs:complexType>
+  <xs:simpleContent>
+   <xs:extension base="xs:string">
+    <xs:attribute ref="mennyiseg"/>
+    <xs:attribute ref="egyseg"/>
+    </xs:extension>
+   </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="osszetevok">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="osszetevo"  maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="Utasitasok">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="lepes"  maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="Recept">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="cim" />
+      <xs:element ref="osszetevok" />
+      <xs:element ref="Utasitasok"/>
+    </xs:sequence>
+    <xs:attribute ref="nev" use="required"/>
+    <xs:attribute ref="elk_ido" use="required"/>
+    <xs:attribute ref="sutes_ido" use="required"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="Receptek">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="Recept" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema> 

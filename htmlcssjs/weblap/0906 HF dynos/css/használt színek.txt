@@ -1,0 +1,3 @@
+szövegszín: DarkGreen
+vonalszín: DarkSalmon
+'angolul' betûszíne: DarkTurquoise

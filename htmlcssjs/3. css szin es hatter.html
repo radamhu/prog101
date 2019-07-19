@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<title>Háttér mérete</title>
+<meta charset="utf-8">
+<style type="text/css">
+body {background-color:GoldenRod ;}
+div {
+    width:500px;    /* szélesség beállítása*/
+    height:280px;    /*magasság beállítása*/
+    background-image:url('specialis/css/matyastemplom_teto.jpg'); 
+     /*háttérkép beállítása*/
+    background-repeat:no-repeat; /*a háttér ne ismétlődjön*/
+    margin:10px 0;               /*margó beállítás*/
+    border:2px solid black;         /*szegély beállítás*/
+    background-color:white;        /*fehér háttérszín beállítás*/
+}    
+div span  { /*beállítjuk a divben megjelenő feliratsáv tualjdonságait */
+    display:block; 
+    background-color:rgba(0,200,0,0.9);
+    color:white; 
+    font-weight:bold;
+    text-align:right;
+    padding:5px;
+    }
+    /*beállítjuk az egyes divek hátterének méretezését*/
+    div:nth-child(1) {background-size:auto;}
+    div:nth-child(2) {background-size:1000px;}
+    div:nth-child(3) {background-size:300px 150px;}
+    div:nth-child(4) {background-size:60% 100%;}
+    div:nth-child(5) {background-size:cover;}
+    div:nth-child(6) {background-size:contain;}
+</style>
+<body>
+    <div><span>background-size:auto</span></div>
+    <div><span>background-size:1000px</span></div>
+    <div><span>background-size:300px 150px</span></div>
+    <div><span>background-size:60% 100%</span></div>
+    <div><span>background-size:cover</span></div>
+    <div><span>background-size:contain</span></div>
+</body>
+</html>

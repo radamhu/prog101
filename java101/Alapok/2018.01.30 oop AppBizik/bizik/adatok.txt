@@ -1,0 +1,9 @@
+Kis János	5	3	5	3	3	5
+Nagy Béla	5	4	4	3	3	4
+Gergely Tibor	4	3	3	4	3	4
+Vas Aladár	5	4	3	3	5	5
+Dadics Béla	5	5	4	5	5	4
+Esze János	4	5	3	3	4	3
+Valaki Jenõ	4	4	3	3	5	5
+Máris Kata	3	3	4	4	5	3
+Levele Janos	3	4	5	4	3	4

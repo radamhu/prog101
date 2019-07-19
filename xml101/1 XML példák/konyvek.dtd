@@ -1,0 +1,13 @@
+<!ELEMENT könyvek (könyv)+>
+<!ELEMENT könyv (cím,kiadás,kiadó,szerzők,leírás?)>
+<!ATTLIST könyv
+  id CDATA #REQUIRED>
+<!ELEMENT cím (#PCDATA)>
+<!ELEMENT kiadás (év,hónap,nap)>
+<!ELEMENT év (#PCDATA)>
+<!ELEMENT hónap (#PCDATA)>
+<!ELEMENT nap (#PCDATA)>
+<!ELEMENT kiadó (#PCDATA)>
+<!ELEMENT szerzők (szerző)+>
+<!ELEMENT szerző (#PCDATA)>
+<!ELEMENT leírás (#PCDATA)>

@@ -1,0 +1,7 @@
+     melegvíz:    4128 m3      41280 Ft
+     hidegvíz:    4674 m3      37392 Ft
+      villany:    4339 kWh     13017 Ft
+     kábel TV:                  3800 Ft
+ közösköltség:                  3500 Ft
+------------------------------------------
+     összesen:                 98989 Ft

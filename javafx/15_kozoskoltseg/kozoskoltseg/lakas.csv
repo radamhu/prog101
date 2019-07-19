@@ -1,0 +1,13 @@
+Épület;Ajtó;Név;Terület;Befizetés;Egyenleg
+A;1;Balázs Róbert;90nm;206700;1500
+A;2;Nagy József;90nm;205200;0
+A;3;Fazekas Sándor;60nm;136800;0
+A;4;Sipos Attila;60nm;136800;0
+A;5;Helmeczi Ildikó;60nm;136800;0
+B;1;Kalászi József;90nm;205700;500
+B;2;Szabó Sándor;90nm;191700;-13500
+B;3;Juhász András;60nm;127200;-9600
+B;4;Antal Erika;60nm;136700;-100
+B;5;Spitzer Gábor;60nm;136800;0
+C;9;Nagy Béla;60nm;0;-136800
+D;1;Lajos király;34nm;0;-77520

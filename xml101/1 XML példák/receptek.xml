@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <Receptek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="receptek.xsd">
+  <Recept nev="kenyér" elk_ido="5 perc" sutes_ido="3 óra">
+    <cim>Egyszerű kenyér</cim>
+    <osszetevok>
+      <osszetevo mennyiseg="3" egyseg="csésze">Liszt</osszetevo>
+      <osszetevo mennyiseg="10" egyseg="dekagramm">Élesztő</osszetevo>
+      <osszetevo mennyiseg="1.5" egyseg="csésze">Meleg víz</osszetevo>
+      <osszetevo mennyiseg="1" egyseg="teáskanál">Só</osszetevo>
+    </osszetevok>
+    <Utasitasok>
+      <lepes>Keverj össze minden összetevőt, aztán jól gyúrd össze!</lepes>
+      <lepes>Fedd le ruhával és hagyd pihenni egy óráig egy meleg szobában!</lepes>
+      <lepes>Gyúrd össze újra, helyezd bele egy bádogedénybe, aztán süsd meg a sütőben!</lepes>
+    </Utasitasok>
+  </Recept>
+  <Recept nev="kifli" elk_ido="2 perc" sutes_ido="1 óra">
+    <cim>Egyszerű kifli</cim>
+    <osszetevok>
+      <osszetevo mennyiseg="1" egyseg="csésze">Liszt</osszetevo>
+      <osszetevo mennyiseg="3" egyseg="dekagramm">Élesztő</osszetevo>
+      <osszetevo mennyiseg="0.5" egyseg="csésze">Meleg víz</osszetevo>
+      <osszetevo mennyiseg="0.3" egyseg="teáskanál">Só</osszetevo>
+    </osszetevok>
+    <Utasitasok>
+      <lepes>Keverj össze minden összetevőt, aztán jól gyúrd össze!</lepes>
+      <lepes>Fedd le ruhával és hagyd pihenni fél óráig egy meleg szobában!</lepes>
+      <lepes>Gyúrd össze újra, helyezd bele egy bádogedénybe, aztán süsd meg a sütőben!</lepes>
+    </Utasitasok>
+  </Recept>
+</Receptek>

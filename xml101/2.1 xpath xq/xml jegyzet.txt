@@ -1,0 +1,48 @@
+XPATH
+/mondial/continent/@name/
+//continent/@name/
+//continent/@name/string()
+
+
+XQ
+ABC sorrendben
+for $k in //continent
+order by $k/@name/string()
+return $k/@name/string()
+
+ABC sorrendben, de bevezetek egy valtozot
+for $k in //continent
+let $kNEV := $k/@name/string() 
+order by $kNEV
+return $kNEV
+
+
+XPATH
+Gyermek elemek közül csak az elsõt jeleníti meg pl: Czecz rep Czech republic
+//country/name[1]/string()
+
+XQ
+for $k in //country
+let $kNEV := $k/@name[1]/string()
+order by $kNEV
+return $kNEV
+
+
+XPATH
+//country[@name='Hungary']/province[not(contains(@name,'munic'))]/@name/string()
+
+XPATH
+//country[ethnicgroups/string()='Gypsy'][ethnicgroups/@percentage/number()>1]/@name/string()
+az összes országra kívánics vcagyok
+arra vagyok kíváncsi amelyiknek az értéke Gypsy + ahol a százalék értéke nagyobb mint 1
+es az ilyen tipusú országoknak a nevére vagyok kíváncsi
+
+XPATH
+//province[@name='Hokkaido']/city/name/string()
+rögtön ugorhatok a province részre
+ügyelni kell hogy a city az gyermek elem
+
+XPATH
+Hanoi nevû város, de hogy melyik országban van
+vagy a szülõ elemének a név atrribútúmára vagyok kíváncsi
+//city[name='Hanoi']/../@name/string()

@@ -1,0 +1,10 @@
+nevek:
+   "Buchern Lajosné","Bujdosó Lászlóné","Czeglédi Ferenc","Csürke György","Demjén Zoltán","Dobsa Ottóné","Dózsa Ferenc","Egedi József","Fazekas Gabriella","Gerlecz Krisztián"
+ID:
+	"6397","7047","6358","6458","6423","7026","6415","7041","6482","4774"
+szint:
+	"alapfok","középfok","alapfok","középfok","középfok","alapfok","alapfok","alapfok","középfok","alapfok"
+pontok:
+	125,149,132,148,145,145,120,135,121,141,
+
+

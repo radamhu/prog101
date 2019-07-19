@@ -1,0 +1,4 @@
+"Gipsz Jakab","Kelep Elek","Kiss Géza","Nagy Péter","Kovács Irma"
+uszas: 1512, 1452,1570,1518,1439       
+bringa: 4992,4931,5112,5051,4997
+futas: 2952,3071,2832,2891,2951

@@ -1,0 +1,10 @@
+        k1.add(new Konyv("Rejtő Jenő","A szőke ciklon"));
+        k1.add(new Konyv("Jules Verne","80 nap alatt a föld körül"));
+        k1.add(new Konyv("Ken Follett","Tű a szénakazalban"));
+        k1.add(new Konyv("Ken Follett","A katedrális"));
+        
+        k2.add(new Konyv("Jules Verne","80 nap alatt a föld körül"));
+        k2.add(new Konyv("Rejtő Jenő","Vesztegzár a Grand Hotelben"));
+        k2.add(new Konyv("Ken Follett","A katedrális"));
+        k2.add(new Konyv("Winston Groom","Forrest Gump"));
+        k2.add(new Konyv("Fekete István","Tüskevár"));

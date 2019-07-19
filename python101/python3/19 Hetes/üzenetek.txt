@@ -1,0 +1,11 @@
+WM_TAKE_FOCUS: 	  ablak kiválasztása
+WM_SAVE_YOURSELF: oprend. leállítása
+WM_DELETE_WINDOW: ablak bezárása
+
+showinfo: értesítés
+showwarning: figyelmeztetés
+showerror: hiba
+askquestion: kérdés
+askokcancel: ok vagy mégse
+askyesnocancel
+askretrycancel

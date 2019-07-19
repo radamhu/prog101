@@ -1,0 +1,1 @@
+select kontakt from partnerek;

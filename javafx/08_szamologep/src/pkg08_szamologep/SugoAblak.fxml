@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="250.0" prefWidth="260.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="pkg08_szamologep.SugoAblakController">
+   <children>
+      <TextArea editable="false" prefHeight="195.0" prefWidth="200.0" text="Számológép 1.0&#10;Ádám Roland 2019&#10;&#10;pi : 3,14&#10;sqrt() : négyztegyök&#10;&#10;ENTER :  eredmény a vágólapra&#10;ESC : kilépés&#10;" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="btnBezar" alignment="CENTER" layoutX="102.0" layoutY="224.0" mnemonicParsing="false" onAction="#bezarAction" text="Bezárás" />
+   </children>
+</AnchorPane>

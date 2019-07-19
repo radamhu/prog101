@@ -1,0 +1,11 @@
+        oDatum.setCellValueFactory(new PropertyValueFactory<>("datum"));
+        oDij.setCellValueFactory(new PropertyValueFactory<>("nmdij"));
+        
+        oEpulet.setCellValueFactory(new PropertyValueFactory<>("epulet"));
+        oAjto.setCellValueFactory(new PropertyValueFactory<>("ajto"));
+        oNev.setCellValueFactory(new PropertyValueFactory<>("nev"));
+        oTerulet.setCellValueFactory(new PropertyValueFactory<>("terulet"));
+        
+        oNev2.setCellValueFactory(new PropertyValueFactory<>("nev"));
+        oDatum2.setCellValueFactory(new PropertyValueFactory<>("datum"));
+        oOsszeg.setCellValueFactory(new PropertyValueFactory<>("osszeg"));

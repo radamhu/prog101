@@ -1,0 +1,52 @@
+CREATE TABLE IF NOT EXISTS `berlok` (
+	`id` int(10) NOT NULL auto_increment,
+	`nev` varchar(100),
+	`jogositvanyszama` varchar(15),
+	`telefonszam` varchar(20),
+	PRIMARY KEY( `id` )
+);
+
+CREATE TABLE IF NOT EXISTS `autok` (
+	`id` int(10) NOT NULL auto_increment,
+	`rendszam` varchar(6),
+	`tipus` varchar(100),
+	`evjarat` int(10),
+	`szin` varchar(30),
+	PRIMARY KEY( `id` )
+);
+
+CREATE TABLE IF NOT EXISTS `kolcsonzes` (
+	`id` int(10) NOT NULL auto_increment,
+	`berletkezdete` datetime,
+	`napokszama` int(10),
+	`napidij` int(10),
+    `berloid` int(10),
+    `autoid` int(10),
+    FOREIGN KEY (berloid) REFERENCES berlo(id),
+    FOREIGN KEY (autoid) REFERENCES autok(id),
+	PRIMARY KEY( `id` )
+);
+
+INSERT INTO autok (rendszam, tipus, evjarat, szin)
+VALUES ('ABC123','Volkswagen Golf', '2011', 'Fehér');
+INSERT INTO autok (rendszam, tipus, evjarat, szin)
+VALUES ('ABC157','Ford Mondeo', '2015', 'Fekete');
+INSERT INTO autok (rendszam, tipus, evjarat, szin)
+VALUES ('ABC448','Volkswagen Golf', '2012', 'Kék');
+
+INSERT INTO berlok (nev, jogositvanyszama, telefonszam)
+VALUES ('Kandúr Károly','LR337157', '06-41-334112');
+INSERT INTO berlok (nev, jogositvanyszama, telefonszam)
+VALUES ('Gipsz Jakba','VE337157', '06-41-554112');
+
+INSERT INTO kolcsonzes (berloid, autoid, berletkezdete, napidij)
+VALUES ('1','3', '2017.04.23', '12500');
+INSERT INTO kolcsonzes (berloid, autoid, berletkezdete, napidij)
+VALUES ('2','2', '2017.04.25', '9999');
+UPDATE kolcsonzes SET 
+`napokszama`=6 
+WHERE `berloid`=1
+
+SELECT (napidij*napokszama) as BŽrletidij from kolcsonzes
+WHERE berloid=1;
+select kolcsonzes.berloid, autok.rendszam FROM kolcsonzes JOIN autok ON kolcsonzes.berloid=autok.id WHERE napokszama is NULL

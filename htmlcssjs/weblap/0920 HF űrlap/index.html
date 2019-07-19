@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ÍKÚ Teszt</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script></script>
+</head>
+<body>
+   <section>
+       <fieldset>
+            <legend>IKÚ Teszt</legend>
+            <form action="http://poganysuli.hu/js/cel.html">
+            Neve (ahogy hívják): <input type="text" name="nev" size="40" maxlength="20" autofocus><p></p>
+            Címe (ahol lakik): <input type="text" name="cim" size="30" maxlength="20"  placeholder="Budapest" disabled><p></p>
+            Kora (ahány éves): <input type="text" name="kora" size="30" maxlength="20" title="Csak számot adjon meg!"><p></p>
+            Született (amikor először napvilágot látott): <input type="date" name="datum"><p></p>
+            Telefonszáma (amin el lehet érni): <input type="tel" name="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}" placeholder="12-3456-7890" minlength="9" maxlength="14"><p></p>
+            Bankszámlaszám (de titkos, csak pontok, hogy ne lássa senki): <input type="password" name="bszlaszam" pattern="[0-9]{3}-[0-9]{5}-[0-9]{6}" placeholder="111-11111-111111"><p></p>
+            Magassága (ahány centire van a feje teteje a padlótól) 
+            <input type="range" name="ageInputName" id="ageInputId" value="180" min="140" max="220" onchange="getvalor(this.value);" oninput="ageOutputId.value = ageInputId.value"> <br>
+            <input type="text" name="ageOutputName" id="ageOutputId"> <p></p>
+            Súlya (ahány kilogram a tömege)<input type="text" name="sulya" size="30" maxlength="20" min="60" max="100"><p></p>
+            Hajszíne (amilyen haj van a fején)<input type="color" value="#ff0000" id="colorWell"><p></p>
+            Végzettsége (8 általános megvan-e):
+                <select name="cars">
+                    <option value="altalanos" style="font-weight: bolder" disabled>Általános</option>
+                    <option value="4osztaly">4. osztály</option>
+                    <option value="6osztaly" selected>6. osztály</option>
+                    <option value="8osztaly">8. osztály</option>
+                    <option value="kozepiskola" style="font-weight: bolder" disabled>Középiskola</option>
+                    <option value="szakmunkas">szakmunkás képző</option>    
+                </select> 
+            </label>
+            <p>Írja le, hogy mi volt élete legnagyobb döntése:</p>
+            <textarea name="uzenet" rows="15" cols="30" placeholder="Ha volt ilyen"></textarea><p></p>
+            1. ÖN <p></p>
+            <input type="checkbox" name="igen" value="igen">igen<br>
+            <input type="checkbox" name="nem" value="nem">nem</> <p></p>
+            2. Szereti-e hogyha <p></p>
+            <input type="radio" name="radio2" value="nem">a. nem <br>
+            <input type="radio" name="radio2" value="igen">b. igen<p></p>
+            3. Melyik a nyár középső hónapja?<p></p>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=".........."></textarea><p></p>
+            4. Biztos-e benne, hogy <p></p>
+            <input type="checkbox" name="hogy" value="hogy">hogy?<br>
+            <input type="checkbox" name="hogymi" value="hogymi">hogy mi?<br>
+            <input type="checkbox" name="hogyne" value="hogyne">hogyne<br><p></p>
+            5. Hánykor kelt ma? <p></p> 
+            <input type="time" name="time"><p></p>
+            6. Ez az utolsó kérdés? <p></p>
+            <input type="radio" name="radio6" value="nem">a. nem <br>
+            <input type="radio" name="radio6" value="igen">b. igen <br>
+            <input type="radio" name="radio6" value="helyesvalasz">a helyes válasz a b.<p></p>
+            7. Ha öt tehén fél óra alatt 57621 füvet harap le, akkor 57621 fövet öt tehén öt tehén hány fél óra alatt harap le?<p></p>
+            <input type="radio" name="radio7" value="egy">a. egy <br>
+            <input type="radio" name="radio7" value="nemmegy">b. nem megy <br>
+            <input type="radio" name="radio7" value="nemtom">c. hülye vagyok nem tom<p></p>
+            8. Mikor lesz már őszi szünet<p></p>
+            <textarea name="uzenet" rows="1" cols="35" placeholder="...hét...."></textarea><p></p>
+            9. A macska ismérvei <p></p>
+            <input type="checkbox" name="van" value="van">a. van<br>
+            <input type="checkbox" name="lablefele" value="lablefele">b. mindig labbal lefelé áll<br>
+            <input type="checkbox" name="7elet" value="7elet">c. 7 élete van mindig megbotlik<p></p>
+            10. Mije volt a kőszívű embernek? <p></p>
+            <input type="radio" name="radio10" value="neolit">a. neoilit pészmékerje <br>
+            <input type="radio" name="radio10" value="jokedv">b. jókedve <br>
+            <input type="radio" name="radio10" value="nemtom">c. 27 sora <p></p>
+            11. Hány oldala van a háromszögnek <br>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            12. Melyik a kakkuktojás <br>
+            <input type="radio" name="radio11" value="tyuk">a. tyúktojás <br>
+            <input type="radio" name="radio11" value="kinder">b. kindertojás <br>
+            <input type="radio" name="radio11" value="tükört">c. tükörtojás <br>
+            <input type="radio" name="radio11" value="kakukkt">d. kakukktojás <br>
+            <input type="radio" name="radio11" value="datolya">e. datolyás <p></p>
+            13. Benjámin lükébbm, mint Zakariás, Zakariás éppoly gyagya, mint Teofil  <br>
+            Ki a legagyalágyultabb a társaságban? <br>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            14. Mi a különbség a krokodil?  <br>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            15. Melyik értelmes üzbég szót lehet kirakni az alábbi betűkből  <br>
+            ÖÜÓŐÚÁŰ - <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            16. Töltsön fel róla egy képet: <br>
+            <input type="file" name="attachment" size="40"> <p></p>
+            17. Egészítse ki  <br>
+            A spenót az a bokszkesztyű számára, mint a tintahal a <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> számára <p></p>
+            18. Karikázza be az x-et! <br>
+            X <p></p>
+            19. Most ikszelje be a karikát! <br>
+            O <p></p>
+            20. Mi az a REM fázis?  <br>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            21. Akar-e belőle  <br>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            22. És ha nem, hányat nem?  <br>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            23. Janinak 10 sütije van.  <br>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            24. Honnan korlátos a banán görbületei jellege? <br>
+            <input type="radio" name="radio24" value="felulrol">a. felülről <br>
+            <input type="radio" name="radio24" value="alulrol">b. alulról <br>
+            <input type="radio" name="radio24" value="gorbul">c. görbül a banán? <p></p>
+            25. Szereti e JAnó Évát, mint kacsa a nokedlit? <br>
+            <input type="checkbox" name="mit25_1" value="mit25_1">a. jobban <br>
+            <input type="checkbox" name="mit25_2" value="mit25_2">b. csakúgy mint <br>
+            <input type="checkbox" name="mit25_3" value="mit25_3">c. hátha nem is <p></p>
+            26. Vegyen elő zsírkrétát és itatóspapírt! <p></p>
+            27. Elteheti <p></p>
+            28. Soroljon fel 10 indiántörzset! <br>
+            <textarea name="uzenet" rows="1" cols="50" placeholder=""></textarea> <br>
+            és még ötöt <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <br>
+            gyorsabban <textarea name="uzenet" rows="1" cols="25" placeholder=""></textarea> <p></p>
+            29. Írja le a különbséget a sas és a szálloda között? <br>
+            <textarea name="uzenet" rows="1" cols="35" placeholder=""></textarea> <p></p>
+            30. Saját értékelése szerint milyen az ÍKÚJA? <br>
+            <input type="radio" name="radio30" value="jo">a. jó <br>
+            <input type="radio" name="radio30" value="kivalo">b. kiváló <br>
+            <input type="radio" name="radio30" value="negatív">c. hálistennek negatív <p></p>
+         </form>
+       </fieldset>
+       <div style="text-align:center;">
+            <input type="submit">
+            <input type="reset"> 
+        </div>
+   </section> 
+   <script src="./js/main.js"></script>
+</body>
+</html>

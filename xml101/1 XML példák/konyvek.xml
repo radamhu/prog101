@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE könyvek SYSTEM "konyvek.dtd">
+<könyvek>
+	<könyv id="XML01">
+		<cím>XML technológia</cím>
+		<kiadás>
+			<év>2016</év>
+			<hónap>02</hónap>
+			<nap>19</nap>
+		</kiadás>
+		<kiadó>Nyomtat bt.</kiadó>
+		<szerzők>
+			<szerző>Jani</szerző>
+			<szerző>Józsi</szerző>
+		</szerzők>
+		<leírás>dsdsa</leírás>
+	</könyv>
+		<könyv id="XML02">
+		<cím>XML haladó</cím>
+		<kiadás>
+			<év>2016</év>
+			<hónap>03</hónap>
+			<nap>21</nap>
+		</kiadás>
+		<kiadó>Nyomtat bt.</kiadó>
+		<szerzők>
+			<szerző>Jani</szerző>
+			<szerző>Juli</szerző>
+		</szerzők>
+	</könyv>
+		<könyv id="XML03">
+		<cím>XML szuperhaldó</cím>
+		<kiadás>
+			<év>2016</év>
+			<hónap>04</hónap>
+			<nap>23</nap>
+		</kiadás>
+		<kiadó>Nyomtat bt.</kiadó>
+		<szerzők>
+			<szerző>Juli</szerző>
+			<szerző>Józsi</szerző>
+		</szerzők>
+		<leírás>gfgfgfgf</leírás>
+	</könyv>
+</könyvek>

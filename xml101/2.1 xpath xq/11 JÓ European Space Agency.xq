@@ -1,0 +1,1 @@
+//city[@id/string()=//organization[@name='European Space Agency']/@headq/string()]/name/string()

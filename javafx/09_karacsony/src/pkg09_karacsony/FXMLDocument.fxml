@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg09_karacsony.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#megallit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../karacsonyfa.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblNapok" style="-fx-background-color: #666;" text="Karácsony" textFill="#fcf9f9" StackPane.alignment="BOTTOM_CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <StackPane.margin>
+            <Insets bottom="40.0" />
+         </StackPane.margin>
+      </Label>
+   </children>
+</StackPane>

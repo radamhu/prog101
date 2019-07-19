@@ -1,0 +1,13 @@
+<!ELEMENT tanulók (tanuló)*>
+<!ELEMENT tanuló (név,anyjaNeve,lakcím,telefon,email*)>
+<!ELEMENT név (#PCDATA)>
+<!ELEMENT anyjaNeve (#PCDATA)>
+<!ELEMENT lakcím (irsz,város,utca,házSzám)>
+<!ELEMENT irsz (#PCDATA)>
+<!ELEMENT város (#PCDATA)>
+<!ELEMENT utca (#PCDATA)>
+<!ELEMENT házSzám (#PCDATA)>
+<!ELEMENT telefon (otthoni?,mobil*)>
+<!ELEMENT otthoni (#PCDATA)>
+<!ELEMENT mobil (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

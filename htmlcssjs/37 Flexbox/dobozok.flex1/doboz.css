@@ -1,0 +1,21 @@
+.box {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    padding: 10px;
+}
+
+#box1 { background-color: red; }
+#box2 { background-color: orange; }
+#box3 { background-color: gold; }
+#box4 { background-color: green; }
+#box5 { background-color: blue; }
+#box6 { background-color: fuchsia; }
+
+#container {
+    display: flex;
+    height: 800px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+}

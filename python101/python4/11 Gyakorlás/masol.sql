@@ -1,0 +1,1 @@
+CREATE TABLE kezeles2 AS SELECT * FROM kezeles;

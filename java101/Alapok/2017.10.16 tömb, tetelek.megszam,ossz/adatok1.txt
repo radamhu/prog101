@@ -1,0 +1,13 @@
+1. feladat
+12, 34, -3, 45, 8, 100
+
+2. feladat
+input
+
+3. feladat
+fh=20; ah=10;
+double x = Math.random()*(fh-ah+1)+ah;
+
+4. feladat
+fh=80; ah=1;
+double x = Math.random()*(fh-ah+1)+ah;

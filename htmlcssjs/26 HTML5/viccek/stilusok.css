@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-image: url('hatter.png');
+}
+#tarolo {
+    width: 800px;
+    margin: 15px auto;
+    background-color: #FFDE81;
+}
+header {
+    height: 150px;
+    padding: 10px;
+    background-color: #1133B2;
+    background-image: url('nevetes.jpg');
+    background-position: right bottom; 
+    background-repeat: no-repeat;
+}
+footer {
+    padding: 10px;
+    background-color: #1133B2;
+    color: white;
+}
+nav {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    background-color: #FFDE81;
+}
+main {
+    margin-left: 220px;
+    padding: 10px;
+    background-color: white;
+}
+h1 {
+    margin: 0;
+    padding: 10px;
+    background-color: #B28810;
+    color: white;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav li {
+    padding: 0;
+    margin: 0 0 1px 0;
+}
+nav a {
+    display: block;
+    width: 180px;
+    font-weight: bold;
+    color: white;
+    background-color: #4C71FF;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #1133B2;
+}
+nav a.aktiv {
+    background-color: #B28810;
+}

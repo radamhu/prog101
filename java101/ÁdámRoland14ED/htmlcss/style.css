@@ -1,0 +1,10 @@
+*{padding:0;margin:0}
+body{background-color:#fff8dc;height:100vh;margin-top:0;width: 960px}
+body>div{height:100vh;padding:0 50px}
+h1{font-size:50px;font-weight:bolder}
+.right{margin:0 0 15px 15px;border:10px solid gold}
+body>div>*,body>div>div>*{margin-bottom:15px}
+.bio{padding:25px;margin:15px 15px 0 0}
+.left{margin: 10 0 15px 15px ; border: 10px solid gold; float:left;margin-right:10px}
+ul{padding:15px}
+hr{border-color:#ff0;margin-bottom:30px}

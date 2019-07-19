@@ -1,0 +1,323 @@
+<!Doctype html>
+<html lang=hu>
+ <head>
+  <title>Weblap</title>
+  <meta charset="UTF-8">
+  <meta name=description content="HTML tag-ek/elemek"/>
+  <meta name=keywords content="HTML, tag, példák, elemek"/>
+  <meta name=author content="Toldi Gábor"/>
+  <meta name=generator content="Notepad++"/>
+ </head>
+ <body bgcolor=moccasin text=forestgreen
+	   background="weblap/felhok.jpg">
+  <a name=elejere>
+  Hurrá, megvan az első weblapom!!!
+  <center>Középre igazított szöveg</center>
+  <b>Félkövér szöveg</b>
+  <br>
+  <i>Dőltbetűs szöveg</i>
+  <br>
+  <u>Aláhúzott szöveg</u>
+  <br>
+  <s>Áthúzott szöveg</s>
+  <br>
+  <big>Nagyobb betűméret</big>
+  <br>
+  <small>Kisebb betűméret</small>
+  <br>
+  <mark>Kiemelt szöveg</mark>
+  <br>
+  <span>Formázás nélküli szöveg</span>
+  <br>
+  H<sub>2</sub>O
+  <br>
+  x<sup>2</sup>
+  <br>
+  <font size=7 color=red face=Algerian>
+   Formázott szöveg
+  </font>
+  <hr color=blue width=200 align=center size=20>
+  <bdo dir=rtl>Indul a görög aludni</bdo>
+  <h1>Első szint</h1>
+  <h2>Második szint</h2>
+  <h3>Harmadik szint</h3>
+  <h4>Negyedik szint</h4>
+  <h5>Ötödik szint</h5>
+  <h6>Hatodik szint</h6>
+  <!-- Ez csak egy megjegyzés -->
+  <a href="http://www.origo.hu">
+   <img src="weblap/kutyus.jpg" alt="Kutyás kép"
+	    align=right width=400 height=200 border=0>
+  </a>
+  <marquee id=mozgo_tartalom width=700 height=500
+		   bgcolor=yellow behavior=alternate loop=5
+		   direction=up scrollamount=2 scrolldelay=6>
+   <img src="weblap/cica.jpg">
+   <br>
+   Cicás kép
+  </marquee>
+  <ol start=7 type=I reversed>
+   <li>Google Chrome
+   <li>Microsoft Edge
+   <li>Mozilla Firefox
+   <li>Opera
+   <li>Internet Explorer
+   <li value=20>Apple Safari
+  </ol>
+  <ul type=square>
+   <li>számítógépház
+   <li>monitor
+   <li>egér
+   <li>billentyűzet
+   <li>hangfal
+   <li>nyomtató
+  </ul>
+  <dl>
+   <dt>HTML</dt>
+    <dd>Hiperszöveges leíró nyelv</dd>
+   <dt>CSS</dt>
+    <dd>Lépcsőzetes stíluslapok</dd>
+   <dt>JavaScript</dt>
+    <dd>Objektumalapú szkriptnyelv</dd>
+  </dl>
+  <hr>
+  <p>Bekezdés sortávolsággal</p>
+  <hr>
+  <div>Bekezdés sortávolság nélkül</div>
+  <hr>
+  <pre>
+   Valaki
+			Valami
+  </pre>
+  <a href="http://www.index.hu" target=_blank>
+   Hivatkozás
+  </a>
+  <br>
+  <a href=#elejere>
+   Oldalon belüli ugrás (klasszikus)
+  </a>
+  <br>
+  <a href=#mozgo_tartalom>
+   Oldalon belüli ugrás (új)
+  </a>
+  <br>
+  <a href="mailto:tolditanarur@gmail.com" rel=author>
+   E-mail küldés
+  </a>
+  <br>
+  <a href="http://www.tutorial.hu/webszerkesztes/html5-css3-osszefoglalo/html5-css3-osszefoglalo-v12.pdf" download>
+   Dokumentum letöltése
+  </a>
+  
+  <table border=1 align=center bgcolor=lavender
+		 cellpadding=10 cellspacing=5 height=200
+		 width=50% frame=void rules=cols>
+   <caption>Mesehősök</caption>
+   <thead>
+    <tr>
+	 <th background="weblap/maci.jpg">Név</th><th>Életkor</th><th>Lakhely</th>
+	</tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td>Hó Fehérke</td><td>29</td><td>Budapest</td>
+    </tr>
+    <tr>
+     <td>Farkas Piroska</td><td>18</td><td>Cegléd</td>
+    </tr>
+   </tbody>
+   <tfoot>
+    <tr bgcolor=mediumturquoise>
+	 <td>2 személy</td><td>47</td><td>Pest megyeiek</td>
+	</tr>
+   </tfoot>
+  </table>
+  
+  <iframe src="weblap/szinek.html"
+		  width=700 height=400 frameborder=no
+		  marginheight=10 marginwidth=20>
+  </iframe>
+  <br>
+  <embed src="weblap/zene.mp3"
+		 height=300 width=250 hidden>
+  <audio src="weblap/zene.mp3" controls
+		 autoplay muted loop></audio>
+  <video width=640 height=360 controls
+		 poster="weblap/tell-us-your-story.png">
+   <source src="weblap/hajtogatos.webm" type="video/webm">
+   <track src="weblap/hajtogatos.vtt" label="Angol felirat"
+		  kind=subtitles srclang=en default>
+  </video>
+  <object data="weblap/helloworld.swf"
+		  width=300 height=300></object>
+		  
+  <img src="weblap/micimackoek.jpg"
+	   usemap=#szazholdas_pagony>
+  <map name=szazholdas_pagony>
+   <area href="http://www.prog.hu" target=_blank
+		 shape=circle coords="451,196,150"
+		 title="Micimackó - kör">
+   <area href="http://www.pcforum.hu" target=_blank
+		 shape=rect coords="624,277,796,465"
+		 title="Malacka - négyszög">
+   <area href="http://www.hwsw.hu" target=_blank
+		 shape=poly coords="6,468,217,93,193,513"
+		 title="Füles - háromszög">
+  </map>
+  
+  <br>
+  <dialog open contextmenu=gyorsmenu>
+   Dialógus ablak
+  </dialog>
+  <menu type=context id=gyorsmenu>
+   <menuitem label="Újratöltés" icon="weblap/ujratolt.png"
+			 onclick="window.location.reload()">
+   </menuitem>
+   <menu label="Megosztás...">
+    <menuitem label="Twitter" icon="weblap/twitter.png"
+			  onclick="window.open('//twitter.com/intent/tweet?text='+window.location.href);">
+	</menuitem>
+	<menuitem label="Facebook" icon="weblap/facebook.png"
+			  onclick="window.open('//facebook.com/sharer/sharer.php?u='+window.location.href);">
+	</menuitem>
+   </menu>
+   <menuitem label="Ajánld az oldalt e-mailben"
+			 onclick="window.location='mailto:tolditanarur@gmail.com?&subject=valami_targy&body='+window.location.href;">
+   </menuitem>
+  </menu>
+  <br>
+  
+  <form name=urlap id=formanyomtatvany method=POST 
+		action="http://www.szerver.eu/kezel.php"
+		onsubmit="alert('Ez csak teszt!'); return false"
+		oninput="fizetes.value=fizetesigeny.value">
+   <input type=image name=logo title="Képesküldő"
+		  src="weblap/regisztracio.jpg">
+   <fieldset>
+    <legend align=left>Regisztrációs űrlap</legend>
+	<p><label for=nev>Teljes név: </label>
+	<input type=text name=nev readonly
+		   value="Karácsony Szilveszter"></p>
+	<p><label for=felhasznalo>Felhasználó név: </label>
+	<input type=text name=felhasznalo size=30
+		   placeholder="Ékezetlen betűk és számok"
+		   title="Szövegbevitel" autofocus!></p>
+	<p><label for=jelszo>Jelszó: </label>
+	<input type=password name=jelszo maxlength=10
+		   required title="Jelszóbevitel"></p>
+	<p><label for=titkositas>Titkosítás: </label>
+	<keygen name=titkositas title="Titkosítás"></p>
+	<p><label for=email>E-mail: </label>
+	<input type=email name=email title="E-mail bevitel"></p>
+	<p><label for=weblap>Weblap: </label>
+	<input type=url name=weblap title="URL bevitel"></p>
+	<p><label for=telefonszam>Telefonszám: &#9743;</label>
+	<input type=tel name=telefonszam
+		   pattern="[\+]36[\(]\d{1,2}[\)]\d{3}[\-]\d{3,4}"
+		   title="Telefonszám bevitel"></p>
+	<input type=hidden name=azonosito value="visitor033"
+		   title="Rejtettmező értékadás">
+	<p><label for=nem>Nemed: &#9673;</label><br>
+	<input type=radio name=nem value=ferfi checked>Férfi &male;<br>
+	<input type=radio name=nem value=no title="Kiválasztógomb">Nő &female;
+	</p>
+	<p><label for=eletkor>Életkor: </label>
+	<input type=number name=eletkor min=15 max=23
+		   title="Számbevitel"></p>
+	<p><label for=szuldatum>Születési dátum: </label>
+	<input type=date name=szuldatum min="1992-01-01" max="2000-12-31"
+		   title="Dátumbevitel"></p>
+	<p><label for=szulido>Születési idő: </label>
+	<input type=time name=szulido title="Időbevitel"></p>
+	<p><label for=boldogitoigen>Mikor mondtad ki a boldogító igent: </label><br>
+	<input type=datetime-local name=boldogitoigen
+		   title="Dátum-, időbevitel"></p>
+	<p>Már a felénél jársz az űrlapnak:
+	<progress value=50 max=100 title="Folyamat">50%</progress></p>
+	<p><label for=hobbi>Hobbik: &#9745;</label><br>
+	<input type=checkbox name=hobbi value=szamitastechnika>Számítástechnika<br>
+	<input type=checkbox name=hobbi value=sport title="Jelölőnégyzet">Sport<br>
+	<input type=checkbox name=hobbi value=olvasas>Olvasás<br>
+	<input type=checkbox name=hobbi value=tv disabled>TV
+	</p>
+	<p><label for=vegzettseg>Végzettség: </label><br>
+	<select name=vegzettseg multiple
+			title="Lenyíló lista">
+	 <optgroup label="Elemi iskola">
+	  <option selected>Általános iskola
+	 </optgroup>
+	 <optgroup label="Középszint">
+	  <option>Középiskola
+	 </optgroup>
+	 <optgroup label="Felsőoktatás">
+	  <option>Főiskola
+	  <option>Egyetem
+	 </optgroup>
+	</select></p>
+	<p><label for=beosztas>Beosztás: </label><br>
+	<input name=beosztas list=beosztasok title="Adatlista">
+	<datalist id=beosztasok>
+	 <option value="Tanuló">
+	 <option value="Beosztott">
+	 <option value="Vezető">
+	 <option value="Tulaj">
+	</datalist></p>
+	<p><label for=fizetesigeny>Fizetési igény: </label><br>
+	<input type=range name=fizetesigeny min=70000 max=600000
+		   step=5000 title="Skálázó">
+	<output name=fizetes for=fizetesigeny title="Kimeneti mező"></p>
+	<p><label for=szabadsag>Szabadságigény hónapja vagy hete: </label><br>
+	<input type=month name=honap title="Hónapbevitel">
+	<input type=week name=het title="Hétbevitel"></p>
+	<p><label for=hajszin>Hajszín: </label>
+	<input type=color name=hajszin title="Színbevitel"></p>
+	<p><label for=suly>Súly: </label>
+	<meter id=ertekelo min=40 low=50 value=75 optimum=80
+		   high=100 max=120 title="Érték szemléltetése">75</meter>
+	<input type=number name=suly>
+	<button type=button name=gomb accesskey=g
+			tabindex=3 title="Általános gomb"
+			onclick="document.getElementById('ertekelo').value=urlap.suly.value">
+	 Arc<br>
+	 <img src="weblap/arc.gif">
+	</button></p>
+	<p><label for=kep>Profilkép: </label>
+	<input type=file name=kep title="Fájlfeltöltés"></p>
+	<p><label for=magadrol>Írj valamit magadról: </label><br>
+	<textarea name=magadrol cols=50 rows=10
+			  title="Többsoros szövegbevitel">Ide</textarea></p>
+	<br><hr><br>
+	<input type=button name=nyomogomb value=Nyomógomb title="Nyomógomb">
+	<input type=reset name=visszaallit value=Visszaállít title="Űrlap értéktörlés">
+	<input type=submit name=elkuld value=Elküld title="Űrlap elküldése">
+   </fieldset>
+  </form>
+  <p><label for=kereses>Kereshetsz: </label>
+  <input type=search name=kereses title="Keresőszöveg bevitel"
+		 form=formanyomtatvany autocomplete></p>
+		 
+  <svg width=1000 height=1400>
+   <rect id=negyzet x=720 y=450 width=190 height=190
+		 stroke=grey stroke-width=3 fill=none />
+   <rect id=teglalap x=350 y=120 rx=10 ry=20 fill=none
+		 width=150 height=100 stroke=#000000 stroke-width=2 />
+   <g stroke-width=1>
+    <circle id=kor cx=840 cy=275 r=50 stroke=gainsboro
+			fill=none />
+	<ellipse id=ellipszis cx=385 cy=520 rx=40 ry=85
+			 stroke=deepPink fill=cornsilk />
+   </g>
+   <line id=vonal x1=440 y1=10 x2=750 y2=80 stroke=ForestGreen
+		 stroke-width=3 stroke-dasharray="10 5" stroke-dashoffset=3 />
+   <polyline points="397 301 468 392 529 318 584 385 651 336 694 406 735 359"
+			 stroke=DeepSkyBlue fill=transparent stroke-width=15
+			 stroke-linecap=round stroke-linejoin=bevel />
+   <polygon points="119,1 124,21 139,21 129,31 134,46 119,36 104,46 109,31 99,21 114,21"
+			stroke=mediumpurple fill=transparent stroke-width=3
+			id=sokszog transform="translate(40,30)
+								  rotate(20)
+								  scale(1.5)
+								  skewX(10)" />
+  </svg>
+ </body>
+</html>

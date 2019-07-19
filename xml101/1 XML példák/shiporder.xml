@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="123456" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="shiporder.xsd">
+
+		<orderperson>Gipsz Jakab</orderperson>
+		
+		<shipto>
+			<name>Vevő</name>
+			<address>Utca</address>
+			<city>Budapest</city>
+			<country>HU</country>
+		</shipto>
+		
+		<item>
+			<title>Termék</title>
+			<note>megjegyzés</note>
+			<quantity>2</quantity>
+			<price>10.5</price>
+		</item>
+	
+</shiporder>

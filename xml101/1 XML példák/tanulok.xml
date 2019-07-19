@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tanulók SYSTEM "tanulok.dtd">
+<tanulók>
+	<tanuló>
+		<név>Gipsz Jakab</név>
+		<anyjaNeve>Gipsz Juli</anyjaNeve>
+		<lakcím>
+			<irsz>1234</irsz>
+			<város>Budapest</város>
+			<utca>Kossuth</utca>
+			<házSzám>5</házSzám>
+		</lakcím>
+		<telefon>
+			<otthoni>43243243</otthoni>
+			<mobil>43243243</mobil>
+		</telefon>
+		<email>jani@gipsz.hu</email>
+	</tanuló>
+</tanulók>

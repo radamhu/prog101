@@ -1,0 +1,1 @@
+//country/name[1]/string()

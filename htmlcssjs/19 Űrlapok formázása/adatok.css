@@ -1,0 +1,30 @@
+fieldset {
+    width: 300px;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+
+legend {
+    background-color: lightyellow;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+input[type="text"], input[type="email"]{
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold
+    padding: 5px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+textarea {
+    resize: none;
+}
+
+label:hover {
+    font-weight: bold;
+}
+

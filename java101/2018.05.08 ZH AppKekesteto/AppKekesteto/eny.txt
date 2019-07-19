@@ -1,0 +1,5 @@
+7 kor, 11 km/h
+8 kor, 13 km/h
+14 kor, 17 km/h
+20 kor, 30 km/h
+23 kor, 19 km/h

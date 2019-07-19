@@ -1,0 +1,5 @@
+"Gipsz Jakab", "Kelep Elek", "Kiss Géza", "Nagy Péter", "Kovács Éva"
+1. kör:	8, 9, 7, 7, 6
+2. kör:	5, 7, 5, 9, 8
+3. kör:	7, 7, 10, 8, 10
+4. kör:	10, 9, 10, 9, 10

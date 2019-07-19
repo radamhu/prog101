@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adatok</title>
+    <link rel="stylesheet" href="adatok.css">
+</head>
+
+<body>
+    <form action="http://poganysuli.hu/js/cel.html">
+        <fieldset>
+            <legend>Adatok</legend>
+            <p>
+                <label>Név: <br>
+                    <input type="text" name="nev" placeholder="Írd be a neved">
+                </label><br>
+                <label>E-mail: <br>
+                    <input type="email" name="e-mail" placeholder="Add meg a címed">
+                </label>
+            </p>
+            <p>
+                Nemed:<br>
+                <label><input type="radio" name="nem" value="ferfi" checked>Férfi</label> <br>
+                <label><input type="radio" name="nem" value="nő">Nő </label>
+            </p>
+            <p>
+                Korod:
+                <select name="kor">
+                    <option value="0">0-19</option>
+                    <option value="20">20-39</option>
+                    <option value="40">40-59</option>
+                    <option value="60">60+</option>
+                </select>
+            </p>
+            <p>
+                Számítógéped: <br>
+                <label><input type="checkbox" name="gep1" value="laptop">Laptopom van</label><br>
+                <label><input type="checkbox" name="gep2" value="desktop">Asztali számítógépem van</label>
+            </p>
+            <p>
+                Üzenet:<br>
+                <textarea name="uzenet" rows="10" cols="35" placeholder="Ide írd az üzenetet">
+                </textarea>
+            </p>
+            <p>
+                <input type="submit" value="Mentés">
+                <input type="reset" value="Törlés">
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

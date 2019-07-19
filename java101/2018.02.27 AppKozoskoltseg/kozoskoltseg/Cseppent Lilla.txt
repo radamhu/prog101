@@ -1,0 +1,6 @@
+     melegvíz:    1216 m3      12160 Ft 
+     hidegviz:    4447 m3      35576 Ft 
+      villany:    3921 kwh      11763 Ft 
+           TV:                  3800 Ft 
+        Közös:                  3500 Ft 
+     Összesen:                 66799 Ft 

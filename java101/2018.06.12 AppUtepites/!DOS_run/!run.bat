@@ -1,0 +1,1 @@
+java -jar AppUt_p_t_s.jar

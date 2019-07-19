@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="bicikliverseny">
+  <ClassDiagramComponents>
+    <Class name="Bicikliverseny" package="bicikliverseny" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="f" type="RandomAccessFile" visibility="package" isStatic="true"/>
+        <Field name="biciklisek" type="ArrayList&lt;Biciklis&gt;" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="adatokBe" returnType="void" visibility="package" isStatic="true">
+          <Argument type="String" name="f_neve"/>
+        </Method>
+        <Method name="Teszt" returnType="void" visibility="package" isStatic="true"/>
+        <Method name="pontJavitas" returnType="void" visibility="package" isStatic="true"/>
+        <Method name="ENTER" returnType="void" visibility="package" isStatic="true"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Biciklis" package="bicikliverseny" visibility="public" xPosition="317.0" yPosition="97.0">
+      <Fields>
+        <Field name="nev" type="String" visibility="private" isFinal="true"/>
+        <Field name="km" type="ArrayList&lt;Integer&gt;" visibility="private" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="sor"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="fillKmlista" returnType="void" visibility="private">
+          <Argument type="String[]" name="tmp"/>
+        </Method>
+        <Method name="getNev" returnType="String" visibility="public"/>
+        <Method name="getKm" returnType="ArrayList&lt;Integer&gt;" visibility="public"/>
+        <Method name="setKm" returnType="void" visibility="public">
+          <Argument type="int" name="nap"/>
+          <Argument type="int" name="ujKm"/>
+        </Method>
+        <Method name="toString" returnType="// hogy egy metĂłdust felĂĽlĂ­r String" visibility="public"/>
+        <Method name="setKm" returnType="void" visibility="package">
+          <Argument type="double" name="nap"/>
+          <Argument type="double" name="ujKm"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="biciklisek" source="bicikliverseny.Bicikliverseny" target="bicikliverseny.Biciklis" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Biciklis&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Takarékszámla</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <main>
+        <h1>Takarékszámla</h1>
+        <h2>Kamatoztassa pénzét Takarékszámlán!</h2>
+        <ul>
+            <li>Magas kamat: évi 2%</li>
+            <li>Havi kamatszámítás.</li>
+            <li>Bármelyik hónap végén kivehető.</li>
+            <li>OBA garancia 100 000 euróig.</li>
+            <li>Semmilyen költség nincs!</li>
+        </ul>
+        <form id="kalkulator">
+            <h2>Kalkulátor</h2>
+            <label for="betet">Havonta elhelyezett összeg:<br><span id="blabel">10000</span> Ft</label>
+            <p><input id="betet" type="range" min="5000" max="20000" value="10000" step="1000"></p>
+            
+            <label for="cel">Célösszeg:<br><span id="clabel">1000000</span> Ft</label>
+            <p><input id="cel" type="range" min="50000" max="2000000" value="1000000"  step="10000"></p>
+            
+            <p>Megtakarítási idő:<br><span id="meddig"></span> hónap</p>
+            <p>Elért összeg:<br><span id="mennyi"></span> Ft</p>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

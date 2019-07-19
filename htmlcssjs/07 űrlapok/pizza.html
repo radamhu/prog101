@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza rendelés</title>
+</head>
+<body>
+    <form action="http://poganysuli.hu/js/cel.html">
+        <fieldset>
+            <legend>Vevők adatai</legend>
+            <p><label >Név: <input type="text" name="nev" size="30" maxlength="20"></label></p>
+            <p><label >Telefon: <input type="tel" name="tel"></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Pizza mérete</legend>
+            <label ><input type="radio" name="meret" value="kicsi">kicsi</label>
+            <label ><input type="radio" name="meret" value="nagy" checked>nagy</label>
+        </fieldset>
+        <p>
+            <label>Mennyiség: <input type="number" name="mennyiseg" min="1" max="5"></label>
+        </p>
+        <p>
+            <label>Dátum: <input type="date" name="datum"></label>
+        </p>
+        <p>
+            <label><input type="time" name="time"></label>
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>

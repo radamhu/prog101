@@ -1,0 +1,1 @@
+java -jar K_z_sk_lts_g.jar

@@ -1,0 +1,1 @@
+//country[ethnicgroups/string()='Gypsy'][ethnicgroups/@percentage/number()>1]/@name/string()

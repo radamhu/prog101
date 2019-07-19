@@ -1,0 +1,9 @@
+body {
+        background-image: url("../img/smiley.jpg");
+}
+fieldset {
+        padding: 20px;
+}
+div {
+        text-align:center;
+}

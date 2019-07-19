@@ -1,0 +1,197 @@
+h1{
+    font-family: Comic Sans MS;
+    font-size: 50pt;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+section{
+    color: rgb(70, 70, 70);
+    text-shadow: 0px -1px 5px white,
+    0px 1px 5px white,
+    -1px 0px 5px white,
+    1px 0px 5px white,
+    -1px -1px 5px white,
+    -1px 1px 5px white,
+    1px -1px 5px white,
+    1px 1px 5px white;
+}
+article{
+    background-attachment: scroll;
+    width: 300px;
+    height: 200px;
+}
+#elso{
+    background-color: black;
+    background: url('weblap/virag.jpg');
+    border-style: groove;
+    border-color: coral;
+    border-width: thick;
+    margin: 10px;
+    padding: 5pt;
+    text-align: justify;
+    text-indent: 5mm;  
+}
+#masodik{
+    background-color: gray;
+    background: url('weblap/suni.jpg') 100% 100%;
+    background-size: cover;
+    border: ridge aqua thick;
+    margin: 20pt;
+    padding: 2pc;
+    text-decoration: underline;
+    text-transform: capitalize; 
+}
+#harmadik{
+    background: white url('weblap/roka.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: inset lime thick;
+    margin: 30mm;
+    padding: 0.3cm;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+#negyedik{
+    background: red url('weblap/maci.jpg');
+    background-repeat: repeat-x;
+    background-position: right center;
+    border: outset violet thick;
+    margin: 4cm;
+    padding: 4mm;
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+#otodik{
+    background: blue url('weblap/hal.jpg') repeat-y bottom center;
+    border-top: solid tomato thin;
+    border-bottom: solid tomato thin;
+    border-left: double #5F9EA0 medium;
+    border-right: double #5F9EA0 medium;
+    margin: 2in;
+    padding: 3px;
+    text-align: right;
+    font: italic 800 12pt Arial;
+    font-variant: small-caps;
+}
+#hatodik{
+    background: green url('weblap/mokus.jpg') repeat-x left center;
+    border-style: dotted dashed;
+    border-width: 0.5cm 0.1in;
+    border-color: rgb(255, 165, 0) hsl(136, 24%, 85%);
+    margin: 40px 50pt;
+    padding: 0.03cm 6mm;
+    letter-spacing: 0.1pc;
+}
+#hetedik{
+    background: purple url('weblap/pok.png') repeat-y top center;
+    border-style: none solid double;
+    border-width: 20px 10pt 1pc;
+    border-color: #F6F5DC rgb(64, 224, 208) hsl(180, 100%, 25%) ;
+    margin: 60mm 7cm;
+    padding: 0.4pc 5pt;
+}
+#nyolcadik{
+    background-color: brown;
+    background-image: url('weblap/teknos.png'), url('weblap/teknos.png');
+    background-repeat: repeat-x, repeat-x;
+    background-position: top center, bottom center;
+    border-style: groove ridge inset outset;
+    border-width: 0.3cm 0.15in 15pt 30px;
+    border-color: #8fbc8e rgb(184, 86, 11) #66cdaa rgb(222, 184, 87);
+    margin: 3in 80mm 9cm;
+    padding-top: 0.2in;
+    padding-right: 3mm;
+    padding-bottom: 1.1pc;
+    padding-left: 4px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#kilencedik{
+    background-color: pink;
+    background-image: url('weblap/beka.jpg'), url('weblap/beka.jpg');
+    background-repeat: repeat-y, repeat-y;
+    background-position: left center, right center;
+    border-top: solid navy 12px;
+    border-right: double #9acd32 10pt;
+    border-bottom: dotted rgb(221, 160, 110) 0.1in;
+    border-left: dashed hsl(249, 80%, 67%) 0.2cm;
+    margin-top: 6.3pc;
+    margin-right: 8.7cm;
+    margin-bottom: 2.5in;
+    margin-left: 30mm;
+    padding: 10px 9pt 4mm 0.1cm;
+    line-height: 170%;
+    overflow: scroll;
+}
+#tizedik{
+    background: yellow url('weblap/farkas.png') no-repeat;
+    background-position: 1cm 0.4in;
+    border-top-style: outset;
+    border-top-width: 0.15cm;
+    border-top-color: hsl(270, 50%, 40%);
+    border-right-style: inset;
+    border-right-width: 0.08in;
+    border-right-color: rgb(139, 69, 19);
+    border-bottom-style: ridge;
+    border-bottom-width: 9pt;
+    border-bottom-color: #FFDEAB;
+    border-left-style: groove;
+    border-left-width: 11px;
+    border-left-color: salmon;
+    margin: 55mm 4.5cm 75px 85pt;
+    padding: 0.2cm 0.3in 2pc;
+    line-height: 1.5em;
+    overflow: auto;
+}
+#tigris{
+    position: absolute;
+    top: 4500px;
+    right: 100px;
+    clip: rect(40px 580px 320px 30px);
+}
+#gepard{
+    position: relative;
+    left: 180px;
+    top: 670px;
+    z-index: -1;
+}
+#parduc{
+    position: fixed;
+    bottom: 220px;
+    left: 300px;
+    clip: rect(5px 406px 310px 50px);
+}
+#tigris:hover, #gepard:hover, #parduc:hover{
+    z-index: 1;
+    opacity: 0.7;
+    cursor: pointer;
+    border: dotted blue 5px; 
+}
+#tigris:active{
+    cursor: crosshair;
+}
+#gepard:active{
+    cursor: move;
+}
+#parduc:active{
+    cursor: wait;
+    border-style: dashed; 
+    border-color: red;
+    border-width: 0.1in;
+}
+ol{
+    list-style-type: katakana;
+    list-style-position: outside;
+}
+ul{
+    list-style-image: url('weblap/computer.png');
+    list-style-position: inside;
+}
+dt:hover + dd{display: none;}
+img[src*="leopard"]{float: left;}
+img[src*="jaguar"]{float: right;}
+img[src*="hiuz"]{
+    float: right;
+    clear: right;
+}

@@ -1,0 +1,1 @@
+java -jar AppV_laszt_sok.jar

@@ -1,0 +1,120 @@
+<HTML>
+ <HEAD>
+  <TITLE>CSS elemek</TITLE>
+  <STYLE type="text/css">
+   BODY { margin: 30px }
+   OL { list-style-type: upper-roman }
+   OL OL { list-style-type: decimal }
+   OL OL OL { list-style-type: lower-alpha }
+  </STYLE>
+ </HEAD>
+ <BODY>
+  <B>Az elsõ szintû lista paraméterei utáni felsorolás az egyben történõ értékadás sorrendiségét jelzi.</B><BR>
+  <I>Példák találhatóak minden elemre a <A href="http://www.w3schools.com/css/default.asp" target=_blank>W3schools</A> weboldalon.</I>
+  <OL>
+   <LI>background - háttér  --  (background-image background-color background-repeat background-attachment background-position)
+    <OL>
+     <LI><A href="szinek.html">background-color</A> - háttérszín (szín név, hexadecimálisan: #PPZZKK, decimálisan: rgb(Piros,Zöld,Kék) 0-255)
+     <LI>background-image - háttérkép ( url(képfájl) )
+	 <LI>background-repeat - háttérkép ismétlés (repeat,no-repeat,repeat-x,repeat-y)
+     <LI>background-attachment - háttérkép rögzítés (scroll,fixed)
+	 <LI>background-position - háttérkép pozíció  --  (background-position-x background-position-y)
+	  <OL>
+	   <LI>background-position-x - háttérkép pozíció vízszintes (left,right,center; szám px,pt,in,cm,%)
+	   <LI>background-position-y - háttérkép pozíció függõleges (top,bottom,center; szám px,pt,in,cm,%)
+	  </OL>
+    </OL>
+   </LI><BR>
+   <LI>border - szegély  --  (border-width border-style border-color)
+    <OL>
+     <LI>border-style - szegély stílus  --  (x - minden szegélyre | x y - felsõ-alsó jobb-bal | x y z - felsõ bal-jobb alsó | x y z w - felsõ jobb alsó bal)
+      <OL>
+       <LI>border-top-style - szegély felsõ stílus (none,dotted,dashed,solid,double,groove,ridge,inset,outset)
+       <LI>border-right-style - szegély jobb stílus (none,dotted,dashed,solid,double,groove,ridge,inset,outset)
+	   <LI>border-bottom-style - szegély alsó stílus (none,dotted,dashed,solid,double,groove,ridge,inset,outset)
+       <LI>border-left-style - szegély bal stílus (none,dotted,dashed,solid,double,groove,ridge,inset,outset)
+	  </OL>
+     <LI>border-width - szegély szélesség  --  (x - minden szegélyre | x y - felsõ-alsó jobb-bal | x y z - felsõ bal-jobb alsó | x y z w - felsõ jobb alsó bal)
+      <OL>
+       <LI>border-top-width - szegély felsõ szélesség (thin,medium,thick; szám px,pt,in,cm,%)
+       <LI>border-right-width - szegély jobb szélesség (thin,medium,thick; szám px,pt,in,cm,%)
+	   <LI>border-bottom-width - szegély alsó szélesség (thin,medium,thick; szám px,pt,in,cm,%)
+       <LI>border-left-width - szegély bal szélesség (thin,medium,thick; szám px,pt,in,cm,%)
+	  </OL>
+	 <LI>border-color - szegély szín  --  (x - minden szegélyre | x y - felsõ-alsó jobb-bal | x y z - felsõ bal-jobb alsó | x y z w - felsõ jobb alsó bal)
+      <OL>
+       <LI><A href="szinek.html">border-top-color</A> - szegély felsõ szín (szín név, hexadecimálisan: #PPZZKK, decimálisan: rgb(Piros,Zöld,Kék) 0-255)
+       <LI><A href="szinek.html">border-right-color</A> - szegély jobb szín (szín név, hexadecimálisan: #PPZZKK, decimálisan: rgb(Piros,Zöld,Kék) 0-255)
+	   <LI><A href="szinek.html">border-bottom-color</A> - szegély alsó szín (szín név, hexadecimálisan: #PPZZKK, decimálisan: rgb(Piros,Zöld,Kék) 0-255)
+       <LI><A href="szinek.html">border-left-color</A> - szegély bal szín (szín név, hexadecimálisan: #PPZZKK, decimálisan: rgb(Piros,Zöld,Kék) 0-255)
+	  </OL>
+	 <LI>border-top - szegély felsõ  --  (border-top-width border-top-style border-top-color)
+	 <LI>border-right - szegély jobb  --  (border-right-width border-right-style border-right-color)
+	 <LI>border-bottom - szegély alsó  --  (border-bottom-width border-bottom-style border-bottom-color)
+	 <LI>border-left - szegély bal  --  (border-left-width border-left-style border-left-color)
+    </OL>
+   </LI><BR>
+   <LI>bottom - alsó<BR><BR>
+   <LI>clear - tisztítás<BR><BR>
+   <LI>clip - vágás (auto, rect(szám px,szám px,szám px,szám px)) --  ( rect(top,right,bottom,left) )<BR><BR>
+   <LI><A href="szinek.html">color</A> - (elõtér/betû)szín (szín név, hexadecimálisan: #PPZZKK, decimálisan: rgb(Piros,Zöld,Kék) 0-255)<BR><BR>
+   <LI>cursor - kurzor ( url(kurzor_fájl.cur vagy kurzor_fájl.ani),auto,crosshair,default,pointer,move,e-resize,ne-resize,nw-resize,n-resize,se-resize,sw-resize,s-resize,w-resize,text,wait,help )<BR><BR>
+   <LI>display - megjelenítés (none,inline,block,<A href="http://www.w3schools.com/cssref/pr_class_display.asp" target=_blank>egyebek modern böngészõkön</A>)<BR><BR>
+   <LI>float - úsztatás (none,left,right)<BR><BR>
+   <LI>font - betû  --  (font-style font-variant font-weight font-size/line-height font-family)
+    <OL>
+     <LI>font-family - betûcsalád
+     <LI>font-size - betûméret (xx-small,x-small,small,medium,large,x-large,xx-large; smaller,larger; szám px,pt,in,cm,%)
+	 <LI>font-style - betûstílus/dõltség (normal,italic)
+	 <LI>font-variant - betûvariáns (normál,small-caps)
+	 <LI>font-weight - betûvastagság (normal,bold,bolder,lighter)
+     <LI>line-height - sormagasság (normal; szám px,pt,in,cm,%)
+    </OL>
+   </LI><BR>
+   <LI>height - magasság (szám px,pt,in,cm,%)<BR><BR>
+   <LI>left - bal (auto; szám px,pt,in,cm,%)<BR><BR>
+   <LI>list-style - lista stílus  --  (list-style-type list-style-position list-style-image)
+    <OL>
+     <LI>list-style-image - lista kép ( url(képfájl) )
+     <LI>list-style-position - lista pozíció (inside,outside)
+	 <LI>list-style-type - lista típus (none; disk,circle,square; decimal,lower-roman,upper-roman,lower-alpha,upper-alpha, <A href="http://www.w3schools.com/cssref/pr_list-style-type.asp" target=_blank>egyebek modern böngészõkön</A>)
+    </OL>
+   </LI><BR>
+   <LI>margin - margó   --  (x - minden margóra | x y - felsõ-alsó jobb-bal | x y z - felsõ bal-jobb alsó | x y z w - felsõ jobb alsó bal)
+    <OL>
+     <LI>margin-left - (szám px,pt,in,cm,%)
+     <LI>margin-right - (szám px,pt,in,cm,%)
+	 <LI>margin-top - (szám px,pt,in,cm,%)
+     <LI>margin-bottom - (szám px,pt,in,cm,%)
+    </OL>
+   </LI><BR>
+   <LI>outline - körvonal  --  (outline-color outline-style outline-width)
+    <OL>
+	 <LI>outline-color - körvonal szín (szín név, hexadecimálisan: #PPZZKK, decimálisan: rgb(Piros,Zöld,Kék) 0-255)
+     <LI>outline-style - körvonal stílus (none,dotted,dashed,solid,double,groove,ridge,inset,outset)
+     <LI>outline-width - körvonal szélesség (thin,medium,thick; szám px,pt,in,cm,%)
+    </OL>
+   </LI><BR>
+   <LI>overflow - túlfutás (visible,hidden,scroll,auto)<BR><BR>
+   <LI>padding - térköz   --  (x - minden térközre | x y - felsõ-alsó jobb-bal | x y z - felsõ bal-jobb alsó | x y z w - felsõ jobb alsó bal)
+    <OL>
+     <LI>padding-left - (szám px,pt,in,cm,%)
+     <LI>padding-right - (szám px,pt,in,cm,%)
+	 <LI>padding-top - (szám px,pt,in,cm,%)
+     <LI>padding-bottom - (szám px,pt,in,cm,%)
+    </OL>
+   </LI><BR>
+   <LI>position - pozició (static,absolute,fixed,relative)<BR><BR>
+   <LI>right - jobb (auto; szám px,pt,in,cm,%)<BR><BR>
+   <LI>text-align - szöveg igazítás (left,right,center,justify)<BR><BR>
+   <LI>text-decoration - szöveg diszítés (none,underline,line-through,blink)<BR><BR>
+   <LI>text-indent - szöveg behúzás (szám px,pt,in,cm,%)<BR><BR>
+   <LI>text-transform - szövegtranszformáció (none,capitalize,uppercase,lowercase)<BR><BR>
+   <LI>top - felsõ (auto; szám px,pt,in,cm,%)<BR><BR>
+   <LI>vertical-align - függõlegesigazítás (baseline,top,middle,bottom,text-top,text-bottom,sub,super)<BR><BR>
+   <LI>visibility - láthatóság (visible,hidden)<BR><BR>
+   <LI>width - szélesség (szám px,pt,in,cm,%)<BR><BR>
+   <LI>z-index - (auto; szám)<BR><BR>
+  </OL>
+ </BODY>
+</HTML>

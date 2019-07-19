@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="lap">
+      <fo:region-body/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+
+  <fo:page-sequence master-reference="lap">
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block font-size="20pt" font-family="Calibri" line-height="30pt">
+        Helló világ!
+      </fo:block>
+      <fo:block font-size="20pt" font-family="Calibri" line-height="30pt" >
+        <fo:inline color="red">Itt</fo:inline> is helló!
+      </fo:block>
+      <fo:block>
+        Karaktertulajdonságok:
+        <fo:inline color="red">colored</fo:inline>,
+        <fo:inline font-weight="bold">bold</fo:inline>,
+        <fo:inline font-style="italic">italic</fo:inline>,
+        <fo:inline font-size="75%">small</fo:inline>,
+        <fo:inline font-size="133%">large</fo:inline>.
+      </fo:block>
+      <fo:block>
+        Szövegtulajdonságok:
+        <fo:inline text-decoration="underline">aláhúzott</fo:inline>,
+        <fo:inline letter-spacing="3pt"> kiterjesztett </fo:inline>,
+        <fo:inline word-spacing="6pt">szavak között extra hely</fo:inline>,
+        <fo:inline text-transform="uppercase">nagybetűk</fo:inline>,
+        <fo:inline text-transform="capitalize">capitalized</fo:inline>,
+          szöveg <fo:inline baseline-shift="sub" font-size="smaller">alsó</fo:inline> és <fo:inline baseline-shift="super" font-size="smaller">felső</fo:inline> index-el.
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+
+</fo:root>

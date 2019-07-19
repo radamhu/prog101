@@ -1,0 +1,50 @@
+1. hét
+  összege:   82
+ maximuma:   68
+ minimuma:  -27
+  negatív:    2
+2. hét
+  összege:  109
+ maximuma:   30
+ minimuma:    0
+  negatív:    0
+3. hét
+  összege:  207
+ maximuma:   59
+ minimuma:  -23
+  negatív:    1
+4. hét
+  összege:  186
+ maximuma:   67
+ minimuma:  -24
+  negatív:    1
+5. hét
+  összege:  144
+ maximuma:   61
+ minimuma:  -30
+  negatív:    2
+6. hét
+  összege:  345
+ maximuma:   67
+ minimuma:   24
+  negatív:    0
+7. hét
+  összege:   45
+ maximuma:   49
+ minimuma:  -30
+  negatív:    2
+8. hét
+  összege:  203
+ maximuma:   64
+ minimuma:  -22
+  negatív:    2
+9. hét
+  összege:   -7
+ maximuma:   29
+ minimuma:  -29
+  negatív:    4
+10. hét
+  összege:  189
+ maximuma:   54
+ minimuma:   -3
+  negatív:    1

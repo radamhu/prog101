@@ -1,0 +1,10 @@
+h1, p, button {
+    margin-left: 20px;
+}
+input[type="text"] {
+    width: 10em;
+    text-align: right;
+}
+img {
+	max-width: 100%;
+}

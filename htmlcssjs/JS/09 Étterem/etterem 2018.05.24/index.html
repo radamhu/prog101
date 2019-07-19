@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ettermi kalkulátor</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <form action="">
+        <h1>Ettermi kalkulátor</h1>
+        <p><label>Számla összege (Ft): <br>
+            <input type="text" id="szamla">
+
+        </label></p>
+        <p><label>Kiszolgálás: <br>
+            <select id="kiszolgalas">
+                <option value="25">Kitűnő - 25%</option>
+                <option value="20" selected>Jó - 20%</option>
+                <option value="15">OK - 15%</option>
+                <option value="10">Rossz - 10%</option>
+                <option value="5">Szörnyű - 5%</option>
+            </select>
+        </label></p>
+        <p><label>Hányan fizetik (fő) <br>
+            <input type="number" id="fo" value="1" min="1">
+        </label></p>
+        <p><button type="button" id="gomb">Szamol</button></p>
+        <p id="fizetendo">0 Ft / fő</p>
+    </form>
+    <script src="szamol.js"></script>
+</body>
+</html>

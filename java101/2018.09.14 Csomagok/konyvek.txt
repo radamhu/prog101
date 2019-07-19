@@ -1,0 +1,4 @@
+Arthur Hailey,Autóváros,539,930
+Ken Follett,A katedrális,798,3600
+Mika Waltari,Az ország titka,413,550
+Winston Groom,Forrest Gump,281,996

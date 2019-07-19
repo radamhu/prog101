@@ -1,0 +1,1 @@
+//könyv[ár>3000]/cím/string()

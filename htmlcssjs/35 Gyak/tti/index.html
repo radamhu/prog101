@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TTI kalkulator</title>
+    <link rel="stylesheet" href="stilus.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <form>
+        <h1>Testtömeg index</h1>
+        <p><label>Magasságod (cm): <br>
+            <input type="number" value="170" min="100" id="magassag">
+        </label></p>
+        <p><label>Tömeged (kg): <br>
+            <input type="number" value="70" min="20" id="tomeg">
+        </label></p>
+        <p><button type="button" id="gomb">Számolj!</button></p>
+        <p id="kiiras"></p>
+    </form>
+    <script src="szamol.js"></script>
+</body>
+</html>

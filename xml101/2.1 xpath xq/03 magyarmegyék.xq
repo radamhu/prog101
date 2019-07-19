@@ -1,0 +1,1 @@
+//country[@name='Hungary']/province[not(contains(@name,'munic'))]/@name/string()
